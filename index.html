@@ -19,9 +19,20 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 
   <!-- App styles -->
-  <link rel="stylesheet" href="styles.css?v=20260323004">
+  <link rel="stylesheet" href="styles.css?v=20260323005">
 </head>
 <body>
+
+  <!-- Password Overlay -->
+  <div id="pw-overlay">
+    <div id="pw-box">
+      <div id="pw-title">🚗 Eden Family Road Trip</div>
+      <div id="pw-subtitle">Enter the trip password to continue</div>
+      <input id="pw-input" type="password" placeholder="Password" autocomplete="off">
+      <button id="pw-btn">Unlock</button>
+      <div id="pw-error"></div>
+    </div>
+  </div>
 
   <!-- Sticky Header -->
   <header id="site-header">
@@ -107,17 +118,17 @@
   <button id="back-to-top" aria-label="Back to top">↑</button>
 
   <!-- Load data files BEFORE app.js -->
-  <script src="data/route.js?v=20260323004"></script>
-  <script src="data/images.js?v=20260323004"></script>
-  <script src="data/hotels.js?v=20260323004"></script>
-  <script src="data/activities.js?v=20260323004"></script>
-  <script src="data/food.js?v=20260323004"></script>
+  <script src="data/route.js?v=20260323005"></script>
+  <script src="data/images.js?v=20260323005"></script>
+  <script src="data/hotels.js?v=20260323005"></script>
+  <script src="data/activities.js?v=20260323005"></script>
+  <script src="data/food.js?v=20260323005"></script>
 
   <!-- Leaflet JS -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV/XN/WLEo=" crossorigin=""></script>
 
   <!-- App -->
-  <script src="app.js?v=20260323004"></script>
+  <script src="app.js?v=20260323005"></script>
 
 </body>
 </html>

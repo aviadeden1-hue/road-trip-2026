@@ -165,17 +165,48 @@ let map = null;
    INIT — runs after DOM is ready
    ============================================================ */
 document.addEventListener('DOMContentLoaded', function () {
-  if (!window.ROUTE_DATA || !Array.isArray(window.ROUTE_DATA)) {
-    console.error('ROUTE_DATA not found. Ensure data/route.js is loaded before app.js.');
+  const overlay = document.getElementById('pw-overlay');
+  const pwInput = document.getElementById('pw-input');
+  const pwBtn   = document.getElementById('pw-btn');
+  const pwErr   = document.getElementById('pw-error');
+
+  function initApp() {
+    if (!window.ROUTE_DATA || !Array.isArray(window.ROUTE_DATA)) {
+      console.error('ROUTE_DATA not found. Ensure data/route.js is loaded before app.js.');
+      return;
+    }
+    initDrawer();
+    buildDrawerNav();
+    buildDayCards();
+    buildAppendixSections();
+    initMap();
+    initBackToTop();
+  }
+
+  if (sessionStorage.getItem('rt-auth') === '1') {
+    initApp();
     return;
   }
 
-  initDrawer();
-  buildDrawerNav();
-  buildDayCards();
-  buildAppendixSections();
-  initMap();
-  initBackToTop();
+  overlay.style.display = 'flex';
+  if (pwInput) pwInput.focus();
+
+  function tryUnlock() {
+    if (pwInput.value === 'eden2026') {
+      sessionStorage.setItem('rt-auth', '1');
+      overlay.style.display = 'none';
+      initApp();
+    } else {
+      pwErr.textContent = 'Incorrect password — try again.';
+      pwInput.value = '';
+      pwInput.focus();
+    }
+  }
+
+  pwBtn.addEventListener('click', tryUnlock);
+  pwInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') tryUnlock();
+  });
 });
 
 /* ============================================================
@@ -221,7 +252,7 @@ function buildDrawerNav() {
   regions.forEach(function (group) {
     const regionCfg = REGION_CONFIG[group.region] || { color: '#888', icon: '📍' };
     const groupEl = document.createElement('div');
-    groupEl.className = 'drawer-region-group';
+    groupEl.className = 'drawer-region-group collapsed';
 
     // Region header
     const headerEl = document.createElement('div');
@@ -392,8 +423,8 @@ function buildDayCard(day) {
 
     const sectionsWrapper = document.createElement('div');
     sectionsWrapper.className = 'card-sections';
-    sectionsWrapper.appendChild(buildCollapsible('🏨', 'Hotel Tonight', buildHotelContent(day), true));
-    sectionsWrapper.appendChild(buildCollapsible('🌙', 'Evening / Grocery', buildEveningContent(day), true));
+    sectionsWrapper.appendChild(buildCollapsible('🏨', 'Hotel Tonight', buildHotelContent(day), false));
+    sectionsWrapper.appendChild(buildCollapsible('🌙', 'Evening / Grocery', buildEveningContent(day), false));
     body.appendChild(sectionsWrapper);
     card.appendChild(body);
     return card;
@@ -403,10 +434,10 @@ function buildDayCard(day) {
   const sectionsWrapper = document.createElement('div');
   sectionsWrapper.className = 'card-sections';
 
-  sectionsWrapper.appendChild(buildCollapsible('☀️', 'Morning', buildTimeOfDayContent(day, 'morning'), true));
-  sectionsWrapper.appendChild(buildCollapsible('🌤', 'Afternoon', buildTimeOfDayContent(day, 'afternoon'), true));
-  sectionsWrapper.appendChild(buildCollapsible('🌙', 'Evening', buildEveningContent(day), true));
-  sectionsWrapper.appendChild(buildCollapsible('🏨', 'Hotel Tonight', buildHotelContent(day), true));
+  sectionsWrapper.appendChild(buildCollapsible('☀️', 'Morning', buildTimeOfDayContent(day, 'morning'), false));
+  sectionsWrapper.appendChild(buildCollapsible('🌤', 'Afternoon', buildTimeOfDayContent(day, 'afternoon'), false));
+  sectionsWrapper.appendChild(buildCollapsible('🌙', 'Evening', buildEveningContent(day), false));
+  sectionsWrapper.appendChild(buildCollapsible('🏨', 'Hotel Tonight', buildHotelContent(day), false));
   sectionsWrapper.appendChild(buildCollapsible('🌧', 'Rainy Day Backup', buildRainyDayContent(day), false, true));
 
   body.appendChild(sectionsWrapper);
@@ -812,7 +843,7 @@ function buildHotelTabs(options, dayNumber) {
   options.slice(0, 3).forEach(function (hotel, i) {
     const btn = document.createElement('button');
     btn.className = 'hotel-tab-btn' + (i === 0 ? ' active' : '');
-    btn.textContent = labels[i] || ('Option ' + (i + 1));
+    btn.textContent = (i === 2 && hotel.isAirbnb) ? '🏠 Airbnb' : (labels[i] || ('Option ' + (i + 1)));
     btn.setAttribute('data-tab', i);
     btn.addEventListener('click', function () {
       tabContainer.querySelectorAll('.hotel-tab-btn').forEach(b => b.classList.remove('active'));
@@ -835,7 +866,12 @@ function buildHotelTabs(options, dayNumber) {
     // Meta row
     const metaEl = document.createElement('div');
     metaEl.className = 'hotel-meta';
-    if (hotel.stars) {
+    if (hotel.isAirbnb) {
+      const airbnbBadge = document.createElement('span');
+      airbnbBadge.className = 'badge badge-airbnb';
+      airbnbBadge.textContent = '🏠 Entire Home · Airbnb';
+      metaEl.appendChild(airbnbBadge);
+    } else if (hotel.stars) {
       const starsEl = document.createElement('span');
       starsEl.className = 'hotel-stars';
       starsEl.textContent = '★'.repeat(Math.floor(hotel.stars));
@@ -861,11 +897,17 @@ function buildHotelTabs(options, dayNumber) {
     // Amenity badges
     const amenitiesEl = document.createElement('div');
     amenitiesEl.className = 'hotel-amenities';
-    if (hotel.pool)             amenitiesEl.appendChild(makeBadge('badge-pool', '🏊 Pool'));
-    if (hotel.freeBreakfast)    amenitiesEl.appendChild(makeBadge('badge-breakfast', '🍳 Free Breakfast'));
-    if (hotel.separateRoom)     amenitiesEl.appendChild(makeBadge('badge-separate-room', '🚪 Separate Room'));
-    if (hotel.upgradePick || hotel.upgradeNote) amenitiesEl.appendChild(makeBadge('badge-upgrade', '⭐ Upgrade Pick'));
-    if (hotel.limitedInventory) amenitiesEl.appendChild(makeBadge('badge-limited', '⚡ Book Early'));
+    if (hotel.isAirbnb && Array.isArray(hotel.amenities)) {
+      hotel.amenities.forEach(function (a) {
+        amenitiesEl.appendChild(makeBadge('badge-airbnb-amenity', a));
+      });
+    } else {
+      if (hotel.pool)             amenitiesEl.appendChild(makeBadge('badge-pool', '🏊 Pool'));
+      if (hotel.freeBreakfast)    amenitiesEl.appendChild(makeBadge('badge-breakfast', '🍳 Free Breakfast'));
+      if (hotel.separateRoom)     amenitiesEl.appendChild(makeBadge('badge-separate-room', '🚪 Separate Room'));
+      if (hotel.upgradePick || hotel.upgradeNote) amenitiesEl.appendChild(makeBadge('badge-upgrade', '⭐ Upgrade Pick'));
+      if (hotel.limitedInventory) amenitiesEl.appendChild(makeBadge('badge-limited', '⚡ Book Early'));
+    }
     if (amenitiesEl.children.length > 0) panel.appendChild(amenitiesEl);
 
     // Why chosen reason
@@ -877,16 +919,35 @@ function buildHotelTabs(options, dayNumber) {
       panel.appendChild(reasonEl);
     }
 
-    // Book Now button
+    // Book / Search button
     if (hotel.bookingUrl) {
       const bookBtn = document.createElement('a');
-      bookBtn.className = 'book-now-btn';
+      bookBtn.className = 'book-now-btn' + (hotel.isAirbnb ? ' book-now-airbnb' : '');
       bookBtn.href = hotel.bookingUrl;
       bookBtn.target = '_blank';
       bookBtn.rel = 'noopener noreferrer';
-      bookBtn.textContent = 'Book Now →';
+      bookBtn.textContent = hotel.isAirbnb ? 'Search on Airbnb →' : 'Book Now →';
       panel.appendChild(bookBtn);
     }
+
+    // Reservation number field (saved to localStorage)
+    const resRow = document.createElement('div');
+    resRow.className = 'reservation-row';
+    const resLabel = document.createElement('label');
+    resLabel.className = 'reservation-label';
+    resLabel.textContent = 'Confirmation #';
+    const resInput = document.createElement('input');
+    resInput.type = 'text';
+    resInput.className = 'reservation-input';
+    resInput.placeholder = 'Enter confirmation number…';
+    const storageKey = 'res-day' + dayNumber + '-opt' + i;
+    resInput.value = localStorage.getItem(storageKey) || '';
+    resInput.addEventListener('input', function () {
+      localStorage.setItem(storageKey, resInput.value);
+    });
+    resRow.appendChild(resLabel);
+    resRow.appendChild(resInput);
+    panel.appendChild(resRow);
 
     tabPanels.appendChild(panel);
   });

@@ -101,6 +101,71 @@ button {
   font-family: inherit;
 }
 
+/* ── Password Overlay ── */
+#pw-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: linear-gradient(135deg, #1a6b72 0%, #0d4a50 100%);
+  align-items: center;
+  justify-content: center;
+}
+#pw-box {
+  background: #fff;
+  border-radius: 20px;
+  padding: 40px 32px;
+  max-width: 360px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+}
+#pw-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a6b72;
+  margin-bottom: 6px;
+}
+#pw-subtitle {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 24px;
+}
+#pw-input {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 1rem;
+  border: 2px solid #e8e4dc;
+  border-radius: 10px;
+  outline: none;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+  font-family: inherit;
+  transition: border-color 0.2s;
+}
+#pw-input:focus { border-color: #1a6b72; }
+#pw-btn {
+  width: 100%;
+  padding: 12px;
+  background: #1a6b72;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.2s;
+}
+#pw-btn:hover { background: #145a60; }
+#pw-error {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: #c0392b;
+  min-height: 18px;
+}
+
 /* ── Hero Banner ── */
 #hero-banner {
   position: relative;
@@ -840,6 +905,53 @@ button {
   color: #166534;
   font-weight: 700;
 }
+
+.badge-airbnb {
+  background: #fce7e0;
+  color: #bf3a1e;
+  font-weight: 700;
+}
+
+.badge-airbnb-amenity {
+  background: #fff3cd;
+  color: #7a5200;
+  font-weight: 500;
+}
+
+/* ── Reservation Number Input ── */
+.reservation-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+.reservation-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-light);
+  white-space: nowrap;
+}
+.reservation-input {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: 0.85rem;
+  font-family: inherit;
+  background: #fff;
+  outline: none;
+}
+.reservation-input:focus { border-color: var(--primary); }
+
+/* ── Airbnb Book Button ── */
+.book-now-airbnb {
+  background: #ff5a5f;
+  color: #fff;
+}
+.book-now-airbnb:hover { background: #e04e53; }
 
 /* ── Card Note ── */
 .card-note {

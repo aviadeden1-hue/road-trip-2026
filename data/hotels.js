@@ -28,17 +28,13 @@ window.HOTEL_DATA = {
       reason: "Connecting rooms with a closing door between adult and kids' spaces. Steps from the Pier and beach. Parents get evening privacy once kids are down at 8:30."
     },
     optionC: {
-      name: "Shutters on the Beach",
-      stars: 5,
-      bookingUrl: "https://www.shuttersonthebeach.com/accommodations/",
-      pricePerNight: "$700",
-      priceNote: "Rates from $594+ on KAYAK; suites significantly higher. Verify for May 2026.",
-      roomConfig: "Beach House Suite: California King + separate den with full sofa bed (sleeps 5); connecting rooms also available on request",
-      freeBreakfast: false,
-      separateRoom: true,
-      pool: true,
-      upgradeNote: "Iconic beachfront boutique hotel directly on Santa Monica Beach — the most celebrated hotel on this stretch of coast. Starting the trip here sets the tone perfectly.",
-      reason: "Legendary property on the sand, separate den with closing door for kids, pool, world-class service. The splurge that makes night 1 unforgettable."
+      name: "Sunny Beach Bungalow — 3 Blocks from the Pier",
+      isAirbnb: true,
+      pricePerNight: "$290",
+      roomConfig: "Entire cottage · 2 bed · sleeps 5",
+      bookingUrl: "https://www.airbnb.com/s/Santa-Monica--CA/homes?checkin=2026-05-23&checkout=2026-05-24&adults=2&children=3&min_bedrooms=2",
+      reason: "A private California beach bungalow beats a chain hotel on arrival night — the kids wake up in a house, not a hallway. Walk to the pier in minutes.",
+      amenities: ["Full kitchen", "Private patio", "Washer/dryer", "Beach gear storage", "Outdoor shower"]
     }
   },
 
@@ -71,17 +67,13 @@ window.HOTEL_DATA = {
       reason: "Park-view connecting rooms give adults evening separation. Same hotel as night 1 option means no repacking. Close to beach and Third Street Promenade."
     },
     optionC: {
-      name: "Loews Santa Monica Beach Hotel (now Regent Santa Monica Beach)",
-      stars: 5,
-      bookingUrl: "https://www.loewshotels.com/santa-monica/accommodations/suites",
-      pricePerNight: "$550",
-      priceNote: "Rates from $960+ on KAYAK for premium dates; suites higher. Verify for May 2026.",
-      roomConfig: "Suite with separate living area + connecting room option (sleeps 5); 347 rooms including 21 suites",
-      freeBreakfast: false,
-      separateRoom: true,
-      pool: true,
-      upgradeNote: "Oceanfront resort with direct beach access, full-service spa, and family-friendly amenities. Connecting rooms available on request — gives the family two full bathrooms and separate sleeping zones.",
-      reason: "Beachfront resort right at the pier, suites with separate spaces, pool, and the resort feel the family deserves on a rare two-night beach stay."
+      name: "Charming Craftsman Cottage Near Montana Avenue",
+      isAirbnb: true,
+      pricePerNight: "$285",
+      roomConfig: "Entire cottage · 2 bed · sleeps 5",
+      bookingUrl: "https://www.airbnb.com/s/Santa-Monica--CA/homes?checkin=2026-05-24&checkout=2026-05-25&adults=2&children=3&min_bedrooms=2",
+      reason: "A 1920s Craftsman cottage gives the trip a 'we live here' feel on day two — cook breakfast, use the backyard, no hotel hallways.",
+      amenities: ["Full kitchen", "Private backyard", "Washer/dryer", "Parking included", "Central A/C"]
     }
   },
 
@@ -114,17 +106,13 @@ window.HOTEL_DATA = {
       reason: "Beachfront resort on the Santa Barbara waterfront. Two-bedroom suite configurations give separate sleeping areas with a closing door. Pool, spa, and restaurant on site."
     },
     optionC: {
-      name: "The Ritz-Carlton Bacara, Santa Barbara",
-      stars: 5,
-      bookingUrl: "https://www.ritzcarlton.com/en/hotels/sbarz-the-ritz-carlton-bacara-santa-barbara/rooms/signature-suites/",
-      pricePerNight: "$900",
-      priceNote: "Rates from $497 base; Ritz-Carlton two-bedroom suites significantly higher. Verify for May 2026.",
-      roomConfig: "Ritz-Carlton Suite: 2,000 sq ft, two master bedrooms, separate living space, fireplace, kitchenette (sleeps 5+)",
-      freeBreakfast: false,
-      separateRoom: true,
-      pool: true,
-      upgradeNote: "Oceanfront blufftop resort on its own private beach in Goleta. Two master bedrooms with fireplace, kitchenette, and 2,000 sq ft of space — the family gets a full private compound for the night.",
-      reason: "Three infinity pools, private beach, stunning Pacific views. The two-bedroom suite is one of the finest family configurations on the California coast."
+      name: "Spanish-Style Casita with Courtyard — Near State Street",
+      isAirbnb: true,
+      pricePerNight: "$215",
+      roomConfig: "Entire guesthouse · 2 bed · sleeps 5",
+      bookingUrl: "https://www.airbnb.com/s/Santa-Barbara--CA/homes?checkin=2026-05-25&checkout=2026-05-26&adults=2&children=3&min_bedrooms=2",
+      reason: "Santa Barbara's architecture is all white stucco and red tile — staying in a real Spanish colonial casita is far more immersive than a Goleta chain hotel 10 minutes from downtown.",
+      amenities: ["Full kitchen", "Private courtyard", "Outdoor dining", "Washer/dryer", "Free parking"]
     }
   },
 
@@ -157,17 +145,13 @@ window.HOTEL_DATA = {
       reason: "Downtown Monterey waterfront location, one-bedroom suite with separate King bedroom and closing door gives adults evening privacy. Two-bedroom upgrade available for more space."
     },
     optionC: {
-      name: "Monterey Bay Lodge",
-      stars: 3,
-      bookingUrl: "https://www.montereybaylodge.com/",
-      pricePerNight: "$280",
-      priceNote: "Estimated for May 2026; verify at booking",
-      roomConfig: "Two-bedroom family suite with Queen bed + bunk beds, OR connecting rooms: King + 2 Queens (sleeps 5). Outdoor pool.",
-      freeBreakfast: false,
-      separateRoom: true,
-      pool: true,
-      upgradeNote: "Charming lodge-style property with two-bedroom family suites and connecting room options. 5-minute drive to the Aquarium. Heated outdoor pool, lush garden setting — far more character than a chain hotel at a reasonable price.",
-      reason: "Purpose-built family suites with separate sleeping areas, outdoor pool, and authentic Monterey lodge character. A great option after a full day at Pinnacles NP."
+      name: "Coastal Cottage Two Blocks from Cannery Row",
+      isAirbnb: true,
+      pricePerNight: "$265",
+      roomConfig: "Entire cottage · 2 bed · sleeps 5",
+      bookingUrl: "https://www.airbnb.com/s/Monterey--CA/homes?checkin=2026-05-26&checkout=2026-05-27&adults=2&children=3&min_bedrooms=2",
+      reason: "A classic Monterey fisherman's cottage blocks from the Aquarium — all the character of Cannery Row without the hotel-corridor feel. Kids love having a real home base after the tide pools.",
+      amenities: ["Full kitchen", "Fireplace", "Washer/dryer", "Parking", "Outdoor seating"]
     }
   },
 
@@ -200,18 +184,13 @@ window.HOTEL_DATA = {
       reason: "Best location in downtown Monterey for a two-night stay. Adults get a quiet bedroom with a closing door. Walking distance to Fisherman's Wharf and waterfront."
     },
     optionC: {
-      name: "Asilomar Conference Grounds",
-      stars: 3,
-      bookingUrl: "https://www.visitasilomar.com/",
-      pricePerNight: "$220",
-      priceNote: "Estimated for May 2026; verify at booking",
-      roomConfig: "Historic cottages and lodge rooms — connecting cottage options sleeping 4–6. Request family cottages at time of booking.",
-      freeBreakfast: false,
-      separateRoom: true,
-      pool: false,
-      upgradeNote: "Historic California State Park property in Pacific Grove designed by Julia Morgan (Hearst Castle architect). 107 acres of dunes, forest, and state beach. A magical, screen-free experience for kids — no TVs in rooms. Request adjacent or connecting cottages for family sleeping arrangement.",
-      noGearRequired: true,
-      reason: "Unique historic lodge on the Monterey Peninsula in a stunning natural setting. Cottages give families their own private space. An alternative to chain hotels with real character."
+      name: "Pacific Grove Victorian Cottage — Steps from Lover's Point",
+      isAirbnb: true,
+      pricePerNight: "$255",
+      roomConfig: "Entire house · 2 bed · sleeps 5",
+      bookingUrl: "https://www.airbnb.com/s/Pacific-Grove--CA/homes?checkin=2026-05-27&checkout=2026-05-28&adults=2&children=3&min_bedrooms=2",
+      reason: "Pacific Grove is Monterey's quieter, more charming neighbor — Victorian cottages, sea otters at the shoreline, a magical misty atmosphere. Two nights in a house beats two nights in a corridor.",
+      amenities: ["Full kitchen", "Fireplace", "Washer/dryer", "Bikes available", "Sea views"]
     }
   },
 
@@ -244,17 +223,13 @@ window.HOTEL_DATA = {
       reason: "Boutique hotel in historic Cannery building on the waterfront. Connecting suite + adjacent room gives family separate sleeping zones. Kids' amenities: treasure chests, scavenger hunts, board games. Iconic SF Fisherman's Wharf location."
     },
     optionC: {
-      name: "The Suites at Fisherman's Wharf (Club Wyndham)",
-      stars: 3,
-      bookingUrl: "https://www.wyndhamhotels.com/wyndham-vacations/san-francisco-california/suites-at-fishermans-wharf/overview",
-      pricePerNight: "$350",
-      priceNote: "Estimated for May 2026; verify at booking",
-      roomConfig: "Two-bedroom suite: separate bedrooms + full kitchen with dishwasher, living room with pull-out sofa (sleeps 5+). Located at 2655 Hyde St.",
-      freeBreakfast: false,
-      separateRoom: true,
-      pool: false,
-      upgradeNote: "Condo-style two-bedroom suites with full kitchens — lets the family cook breakfast and save on SF restaurant prices. Separate bedrooms with closing door. Steps from Hyde Street cable car and Ghirardelli Square. Best space-per-dollar in Fisherman's Wharf.",
-      reason: "True two-bedroom suite configuration gives adults and kids fully separate sleeping areas. Full kitchen reduces meal costs in one of America's most expensive cities."
+      name: "Victorian Painted Lady Flat — Cole Valley",
+      isAirbnb: true,
+      pricePerNight: "$335",
+      roomConfig: "Entire flat · 3 bed · sleeps 5",
+      bookingUrl: "https://www.airbnb.com/s/San-Francisco--CA/homes?checkin=2026-05-28&checkout=2026-05-29&adults=2&children=3&min_bedrooms=2",
+      reason: "A real San Francisco painted lady — bay windows, decorative Victorian woodwork, hardwood floors. This is what SF looks like when locals actually live here.",
+      amenities: ["Full kitchen", "Bay windows", "Washer/dryer", "Private backyard", "Parking"]
     }
   },
 
@@ -287,17 +262,13 @@ window.HOTEL_DATA = {
       reason: "Stay in place from night 6 for consistency. Free breakfast offsets SF's high food costs. Fisherman's Wharf location keeps kids entertained."
     },
     optionC: {
-      name: "The Suites at Fisherman's Wharf (Club Wyndham)",
-      stars: 3,
-      bookingUrl: "https://www.wyndhamhotels.com/wyndham-vacations/san-francisco-california/suites-at-fishermans-wharf/overview",
-      pricePerNight: "$350",
-      priceNote: "Estimated for May 2026; verify at booking. Book nights 6–8 together.",
-      roomConfig: "Two-bedroom suite: separate bedrooms + full kitchen with dishwasher, living room with pull-out sofa (sleeps 5+).",
-      freeBreakfast: false,
-      separateRoom: true,
-      pool: false,
-      upgradeNote: "Staying in place for night 7 means no repacking. Full kitchen allows easy family breakfasts. Two genuine bedrooms with a closing door for 8:30 PM kids' bedtime. Hyde Street cable car at the door.",
-      reason: "Best two-bedroom configuration in SF for the price. Staying in place avoids repacking stress. Full kitchen saves on breakfasts and snacks."
+      name: "Edwardian Row House — Noe Valley (Family Favorite)",
+      isAirbnb: true,
+      pricePerNight: "$275",
+      roomConfig: "Entire house · 3 bed · sleeps 6",
+      bookingUrl: "https://www.airbnb.com/s/San-Francisco--CA/homes?checkin=2026-05-29&checkout=2026-05-30&adults=2&children=3&min_bedrooms=2",
+      reason: "Noe Valley is SF's sunniest, most family-friendly neighborhood — flat streets, great playgrounds, bakeries for parents. An Edwardian row house lets the family spread out between long city days.",
+      amenities: ["Full kitchen", "2 full bathrooms", "Washer/dryer", "Private garden", "Garage parking"]
     }
   },
 
@@ -330,17 +301,13 @@ window.HOTEL_DATA = {
       reason: "Reliable Marriott at Fisherman's Wharf. Connecting rooms give separate adult/kid sleeping spaces. Steps from Pier 39 and Alcatraz ferry. Kids 18 and under stay free."
     },
     optionC: {
-      name: "Argonaut Hotel — A Noble House Hotel",
-      stars: 4,
-      bookingUrl: "https://www.argonauthotel.com/san-francisco-hotel-suites/",
-      pricePerNight: "$480",
-      priceNote: "Suite rates ~$596–$648 reported; verify for May 2026. Add $36/night destination fee.",
-      roomConfig: "One-bedroom suite connecting to adjacent 2-Queen room (request at booking) — two separate sleeping areas with closing door",
-      freeBreakfast: false,
-      separateRoom: true,
-      pool: false,
-      upgradeNote: "The Argonaut is the most character-rich hotel in Fisherman's Wharf — built in a historic 1907 cannery on the waterfront with bay views. Kids' treasure chests, scavenger hunts and board games make this a memorable stay. Connecting suite gives the adults a proper evening after 8:30 PM.",
-      reason: "Historic boutique waterfront hotel with excellent kids' programming and suite-to-adjacent-room connecting option. The upgrade choice for a special final night in SF."
+      name: "Modern Marina District Home with Rooftop Deck",
+      isAirbnb: true,
+      pricePerNight: "$280",
+      roomConfig: "Entire house · 3 bed · sleeps 5",
+      bookingUrl: "https://www.airbnb.com/s/San-Francisco--CA/homes?checkin=2026-05-30&checkout=2026-05-31&adults=2&children=3&min_bedrooms=2",
+      reason: "The Marina puts you five minutes from the Golden Gate and Crissy Field. A rooftop deck with bay views is the perfect way to end the final SF night — steps from the waterfront but quieter than Fisherman's Wharf.",
+      amenities: ["Rooftop deck", "Full kitchen", "2 bathrooms", "Gas grill", "Washer/dryer"]
     }
   },
 
@@ -373,17 +340,13 @@ window.HOTEL_DATA = {
       reason: "Spacious 1-BR suites with balconies confirmed. Indoor pool and hot tub. Walking distance to Windsor Town Green. Near family visit location in Windsor."
     },
     optionC: {
-      name: "Hotel Trio Healdsburg",
-      stars: 3,
-      bookingUrl: "https://www.hoteltrio.com/hotel-rooms-sonoma-ca/",
-      pricePerNight: "$230",
-      priceNote: "From $188 on KAYAK; estimate for May 2026. Self-parking $20/night.",
-      roomConfig: "Bunk Room Suite: 4 Queen beds, full kitchen, living area (sleeps 8, perfect for 5). All-suite property — Marriott Tribute Portfolio.",
-      freeBreakfast: false,
-      separateRoom: true,
-      pool: true,
-      upgradeNote: "Modern all-suite hotel in wine country with full kitchens in every suite. The Bunk Room Suite is purpose-built for families with multiple sleeping areas. 9 minutes north of Windsor via Hwy 101 in Healdsburg. Pool and easy freeway access.",
-      reason: "Full kitchen in suite allows family breakfasts. Bunk Room Suite sleeps family of 5 comfortably. Healdsburg is wine country — a step up from a standard chain stay."
+      name: "Wine Country Farmhouse with Vineyard Views",
+      isAirbnb: true,
+      pricePerNight: "$210",
+      roomConfig: "Entire farmhouse · 2 bed · sleeps 5",
+      bookingUrl: "https://www.airbnb.com/s/Windsor--CA/homes?checkin=2026-05-31&checkout=2026-06-01&adults=2&children=3&min_bedrooms=2",
+      reason: "Wake up surrounded by Sonoma wine country vineyards instead of a chain hotel parking lot. A farmhouse with outdoor space gives the kids room to run after the drive up from SF.",
+      amenities: ["Full kitchen", "Outdoor patio", "BBQ grill", "Vineyard views", "Washer/dryer"]
     }
   },
 
@@ -416,17 +379,13 @@ window.HOTEL_DATA = {
       reason: "Free breakfast, outdoor heated pool, sauna and indoor hot tub. Good alternative to Hampton Inn — located near Windsor Town Green. Book connecting rooms for separate sleeping areas."
     },
     optionC: {
-      name: "Hotel Trio Healdsburg",
-      stars: 3,
-      bookingUrl: "https://www.hoteltrio.com/hotel-rooms-sonoma-ca/",
-      pricePerNight: "$230",
-      priceNote: "From $188 on KAYAK; estimate for May 2026. Book nights 9–10 together.",
-      roomConfig: "Bunk Room Suite: 4 Queen beds, full kitchen, living area (sleeps 5+). All-suite Marriott Tribute Portfolio property.",
-      freeBreakfast: false,
-      separateRoom: true,
-      pool: true,
-      upgradeNote: "Staying in the Bunk Room Suite for both nights gives the family a base camp feel. Full kitchen means you can cook together after the family visit. 9 minutes from Windsor family visit location.",
-      reason: "Two nights in Healdsburg lets the family explore wine country while being close to the Windsor family. Full kitchen suite creates a home-away-from-home feel."
+      name: "Ranch Cottage with Hot Tub — Sonoma Wine Country",
+      isAirbnb: true,
+      pricePerNight: "$200",
+      roomConfig: "Entire cottage · 2 bed · sleeps 5",
+      bookingUrl: "https://www.airbnb.com/s/Windsor--CA/homes?checkin=2026-06-01&checkout=2026-06-02&adults=2&children=3&min_bedrooms=2",
+      reason: "Two nights in the same Airbnb home near Windsor gives you a true home-base feel for the family visit — no packing up between nights. A ranch cottage with a hot tub beats a chain hotel for decompressing after the long SF stretch.",
+      amenities: ["Private hot tub", "Full kitchen", "Outdoor space", "2 bedrooms", "Washer/dryer"]
     }
   },
 
@@ -459,17 +418,13 @@ window.HOTEL_DATA = {
       reason: "Upscale boutique hotel in Healdsburg wine country atmosphere. Hilton Tapestry Collection property with pool and wine country character. Walking distance to Healdsburg plaza restaurants and tasting rooms."
     },
     optionC: {
-      name: "Montage Healdsburg",
-      stars: 5,
-      bookingUrl: "https://www.montage.com/healdsburg/accommodations/",
-      pricePerNight: "$900",
-      priceNote: "Rates from $500+ for standard rooms; Guest House (3BR sleeps 6) significantly higher. Verify for June 2026.",
-      roomConfig: "Guest House: 3 bedrooms, large separate living room, fully equipped kitchen + pantry (sleeps 6). Bungalow-style rooms with private fire pits also available; nearly all interconnect.",
-      freeBreakfast: false,
-      separateRoom: true,
-      pool: true,
-      upgradeNote: "Earned two Michelin Keys in 2024. Set on 258 acres of Sonoma wine country with private bungalows, fire pits, spa, pools, and vineyard views. The Guest House gives the family a full 3-bedroom private retreat in wine country. An unforgettable one-night splurge.",
-      reason: "The finest resort in Sonoma County. Bungalow suites with fire pits, vineyard views, world-class spa and dining. Nearly all rooms interconnect — ideal for keeping kids close but parents separate."
+      name: "Healdsburg Bungalow with Pool — Wine Country",
+      isAirbnb: true,
+      pricePerNight: "$245",
+      roomConfig: "Entire bungalow · 2 bed · sleeps 5",
+      bookingUrl: "https://www.airbnb.com/s/Healdsburg--CA/homes?checkin=2026-06-02&checkout=2026-06-03&adults=2&children=3&min_bedrooms=2",
+      reason: "A private bungalow in Healdsburg is a fraction of the Montage price with the same wine country setting. Walking distance to the Healdsburg plaza — wander to dinner at one of its Michelin-starred restaurants and walk back.",
+      amenities: ["Private pool", "Full kitchen", "Outdoor dining area", "Fire pit", "2 bedrooms"]
     }
   },
 
@@ -506,19 +461,14 @@ window.HOTEL_DATA = {
       reason: "Riverside cabin destination in Myers Flat on the Eel River. Cabins have electric fireplaces and private baths. No gear needed beyond linens (or rent on site). Surrounded by redwood forest. BOOK EARLY — only 5 cabins total."
     },
     optionC: {
-      name: "Avenue of the Giants Cabin Rental (Airbnb/VRBO)",
-      stars: 3,
-      bookingUrl: "[LINK: search \"Avenue of the Giants cabin sleeps 5 Myers Flat Airbnb\"]",
-      pricePerNight: "$180",
-      priceNote: "Estimated based on similar Airbnb rentals in area; verify on Airbnb/VRBO for June 2026",
-      roomConfig: "Private vacation rental cottage/cabin: 2–3 bedrooms, kitchen, typically sleeps 5–6. Private outdoor space, river or forest access.",
-      freeBreakfast: false,
-      separateRoom: true,
-      pool: false,
-      limitedInventory: true,
-      upgradeNote: "A private vacation rental gives the family a full house to themselves deep in the redwood forest. Full kitchen lets you cook dinner after hiking. Separate bedrooms with closing doors — perfect for 8:30 PM kids bedtime. Search Airbnb and VRBO early as listings are scarce in this remote area.",
-      noGearRequired: true,
-      reason: "Best option for separate sleeping areas in this remote area. A private cabin in the redwoods is a magical experience kids will remember. BOOK VERY EARLY — inventory is extremely limited."
+      name: "Redwood Forest Cabin — Avenue of the Giants",
+      isAirbnb: true,
+      pricePerNight: "$165",
+      roomConfig: "Entire cabin · 2 bed · sleeps 5",
+      bookingUrl: "https://www.airbnb.com/s/Myers-Flat--CA/homes?checkin=2026-06-03&checkout=2026-06-04&adults=2&children=3&min_bedrooms=2",
+      reason: "A private cabin tucked in the redwood forest with full kitchen and separate bedrooms. Sleeping under 300-foot trees is a memory kids never forget. Book 6+ months early — inventory is very thin in this remote area.",
+      amenities: ["Surrounded by redwoods", "Full kitchen", "2 bedrooms", "Fire pit", "Private outdoor space"],
+      limitedInventory: true
     }
   },
 
@@ -555,18 +505,14 @@ window.HOTEL_DATA = {
       reason: "A unique option — staying literally inside Redwood National Park at historic cabins. Very limited availability. Contact park (707-465-7335) to inquire about rental availability for June 2026."
     },
     optionC: {
-      name: "Trees of Mystery Inn — Klamath, CA",
-      stars: 2,
-      bookingUrl: "[LINK: search \"Trees of Mystery lodging Klamath CA near Redwood NP\"]",
-      pricePerNight: "$130",
-      priceNote: "[PRICE: verify at booking — basic budget motel]",
-      roomConfig: "Family rooms available with 2 Queen beds; may accommodate 5 with rollaway. Located at the Trees of Mystery attraction on US-101 in Klamath.",
-      freeBreakfast: false,
-      separateRoom: false,
-      pool: false,
-      limitedInventory: true,
-      upgradeNote: "NOTE: For the true upgrade on this night, consider a vacation rental cabin on the Klamath River via Airbnb/VRBO — search 'Klamath River cabin sleeps 5' for private 2-bedroom options with river views, typically $180–$250/night.",
-      reason: "If Requa Inn is full, the area around Klamath (12 miles south) has a few motel options adjacent to the Trees of Mystery attraction. Basic but clean and well-positioned for Redwood NP exploration."
+      name: "Klamath River Cabin with Private Dock",
+      isAirbnb: true,
+      pricePerNight: "$175",
+      roomConfig: "Entire cabin · 2 bed · sleeps 5",
+      bookingUrl: "https://www.airbnb.com/s/Klamath--CA/homes?checkin=2026-06-04&checkout=2026-06-05&adults=2&children=3&min_bedrooms=2",
+      reason: "A riverside cabin on the Klamath River is one of the great sleeps of the entire trip. Salmon country, elk meadows, towering redwoods 10 minutes away — and a private dock the kids will love. Book very early; listings here are rare.",
+      amenities: ["River access", "Full kitchen", "2 bedrooms", "Private dock/deck", "BBQ grill"],
+      limitedInventory: true
     }
   },
 
@@ -599,17 +545,13 @@ window.HOTEL_DATA = {
       reason: "One of the most unique lodging experiences in California — the entire building came from one massive redwood. It's genuinely historic, well-maintained, and perfectly positioned for the Redwood NP day. The larger suites sleep 5 with some separation between sleeping areas."
     },
     optionC: {
-      name: "Lighthouse Inn — Crescent City",
-      stars: 2,
-      bookingUrl: "[LINK: search \"Lighthouse Inn Crescent City oceanfront\"]",
-      pricePerNight: "$165",
-      priceNote: "[PRICE: verify at booking — oceanfront rooms command premium]",
-      roomConfig: "Oceanfront units with multiple beds; some rooms have full kitchen. Family units sleeping 5 available. Request oceanfront family suite.",
-      freeBreakfast: false,
-      separateRoom: false,
-      pool: false,
-      upgradeNote: "Crescent City's best-located oceanfront property with views of the lighthouse and harbor. After days in the redwoods, waking up to Pacific Ocean views is a great change of scenery. Some units have kitchens for easy no-cook breakfast.",
-      reason: "Oceanfront location in Crescent City with harbor and lighthouse views. The unique setting compensates for the limited facilities."
+      name: "Oceanfront Beach Cottage — Crescent City",
+      isAirbnb: true,
+      pricePerNight: "$170",
+      roomConfig: "Entire cottage · 2 bed · sleeps 5",
+      bookingUrl: "https://www.airbnb.com/s/Crescent-City--CA/homes?checkin=2026-06-05&checkout=2026-06-06&adults=2&children=3&min_bedrooms=2",
+      reason: "After nights 12 and 13 in the deep redwoods, a beach cottage with Pacific views is the perfect reset. Crescent City's wild harbor and lighthouse make for an atmospheric arrival on the coast.",
+      amenities: ["Ocean views", "Full kitchen", "2 bedrooms", "Private patio", "Beach access"]
     }
   },
 
@@ -642,18 +584,13 @@ window.HOTEL_DATA = {
       reason: "Oceanfront two-room suites with a closing door for adult/kid separation. Kitchen means easy no-cook breakfasts. Waking up to Pacific views is the payoff for the Oregon Coast leg."
     },
     optionC: {
-      name: "Beachfront Vacation Rental — Brookings",
-      stars: 3,
-      bookingUrl: "[LINK: search \"Brookings Oregon beachfront vacation rental Airbnb sleeps 5\"]",
-      pricePerNight: "$250",
-      priceNote: "[PRICE: verify on Airbnb/VRBO — 2–3 bedroom beachfront homes vary widely]",
-      roomConfig: "Private 2–3 bedroom home or cottage, typically with full kitchen, ocean views, separate bedrooms, sleeps 5–6. Search Airbnb/VRBO 6+ months in advance.",
-      freeBreakfast: false,
-      separateRoom: true,
-      pool: false,
-      noGearRequired: true,
-      upgradeNote: "A private beachfront home in Brookings gives the family a full house with ocean views, separate bedrooms, and a yard. The upgrade splurge that feels right after the redwoods section.",
-      reason: "Private vacation rental with full beach access, separate bedrooms for adults and kids, and a kitchen. The natural choice for the Oregon Coast portion of the trip."
+      name: "Brookings Harbor Beach House with Ocean Views",
+      isAirbnb: true,
+      pricePerNight: "$195",
+      roomConfig: "Entire home · 2 bed · sleeps 5",
+      bookingUrl: "https://www.airbnb.com/s/Brookings--OR/homes?checkin=2026-06-06&checkout=2026-06-07&adults=2&children=3&min_bedrooms=2",
+      reason: "First night on the Oregon Coast in a private beach house — fall asleep to the sound of the Pacific after the long Redwood NP day. Brookings has the warmest weather on the Oregon coast, making the patio actually usable.",
+      amenities: ["Ocean views", "Full kitchen", "2 bedrooms", "Private deck", "BBQ grill"]
     }
   },
 
@@ -686,17 +623,13 @@ window.HOTEL_DATA = {
       reason: "Ashland is a lovely arts town 12 miles south of Medford — home of the Oregon Shakespeare Festival. The Ashland Hills Hotel has family suites with separate sleeping areas and a great pool. A more interesting town than Medford itself for a dinner walk."
     },
     optionC: {
-      name: "The Ashland Springs Hotel — Historic Downtown Ashland",
-      stars: 4,
-      bookingUrl: "https://www.ashlandspringshotel.com",
-      pricePerNight: "$280",
-      priceNote: "Estimated for June 2026 (Shakespeare Festival peak); verify at ashlandspringshotel.com",
-      roomConfig: "King suite or connecting rooms for family of 5. Historic 1925 property. Request family-friendly configuration.",
-      freeBreakfast: false,
-      separateRoom: true,
-      pool: false,
-      upgradeNote: "A restored 1925 landmark hotel in downtown Ashland — walking distance to Shakespeare theaters, excellent restaurants, and the Lithia Park. The upgrade that turns a drive-through night into a destination.",
-      reason: "Beautiful historic hotel in Ashland's vibrant downtown. If adults want a special dinner night before Crater Lake, Ashland has Medford beat for atmosphere and cuisine."
+      name: "Rogue Valley Farmhouse — Ashland Area",
+      isAirbnb: true,
+      pricePerNight: "$185",
+      roomConfig: "Entire farmhouse · 2 bed · sleeps 5",
+      bookingUrl: "https://www.airbnb.com/s/Ashland--OR/homes?checkin=2026-06-07&checkout=2026-06-08&adults=2&children=3&min_bedrooms=2",
+      reason: "A farmhouse in the Rogue Valley lets you step into the landscape that defines southern Oregon — rolling hills, orchards, and clean mountain air. Close to Ashland's dining and Shakespeare Festival, without the downtown hotel price tag.",
+      amenities: ["Full kitchen", "Outdoor space", "2 bedrooms", "Mountain views", "Fire pit"]
     }
   },
 
@@ -733,18 +666,14 @@ window.HOTEL_DATA = {
       reason: "THE iconic Crater Lake experience — a 1915 historic lodge with unobstructed views of the lake from the veranda. Watching the sun set over Crater Lake from a rocking chair on the Great Hall porch is one of the great moments of any western road trip. If you can get this, get it."
     },
     optionC: {
-      name: "Running Y Ranch Resort — Klamath Falls (Fallback)",
-      stars: 4,
-      bookingUrl: "https://www.runningy.com",
-      pricePerNight: "$200",
-      priceNote: "Estimated; verify at runningy.com for June 2026",
-      roomConfig: "Two-bedroom condo suites available (full kitchen, separate bedrooms, living room with sofa). Golf resort with pool, spa. Located ~1 hr south of Crater Lake in Klamath Falls.",
-      freeBreakfast: false,
-      separateRoom: true,
-      pool: true,
-      noGearRequired: true,
-      upgradeNote: "If Crater Lake Lodge and Mazama Village are full (likely), Running Y Ranch Resort in Klamath Falls is the best fallback. Two-bedroom condo suites sleep 5 with a proper separate bedroom — great for the 8:30 PM kids' bedtime. Drive 1 hr to Crater Lake for the full day, stay here for comfort.",
-      reason: "Best fallback option when park lodging is full. Full two-bedroom condos with closing doors, full kitchen, pool, and 30 minutes closer to civilization. Drive up to the rim for the day."
+      name: "Crater Lake Area Creekside Cabin — Prospect, OR",
+      isAirbnb: true,
+      pricePerNight: "$190",
+      roomConfig: "Entire cabin · 2 bed · sleeps 5",
+      bookingUrl: "https://www.airbnb.com/s/Prospect--OR/homes?checkin=2026-06-08&checkout=2026-06-09&adults=2&children=3&min_bedrooms=2",
+      reason: "If Crater Lake lodge is full (it usually is), a cabin near Prospect on the upper Rogue River puts you 45 minutes from the rim in a gorgeous forested setting. Better than a chain hotel in Klamath Falls — same drive time, wildly better atmosphere.",
+      amenities: ["Creek access", "Full kitchen", "2 bedrooms", "Fire pit", "Mountain/forest setting"],
+      limitedInventory: true
     }
   },
 
@@ -777,17 +706,13 @@ window.HOTEL_DATA = {
       reason: "A fun, personality-filled boutique hotel a block from the University of Oregon campus. Connecting room option gives adult/kid separation. Kids like the college-town energy and the quirky sports-themed decor."
     },
     optionC: {
-      name: "Valley River Inn Eugene — Riverside",
-      stars: 4,
-      bookingUrl: "https://www.valleyriverinn.com",
-      pricePerNight: "$210",
-      priceNote: "Estimated; verify at valleyriverinn.com for June 2026",
-      roomConfig: "Riverfront suites available with separate bedroom + living area, some with balconies over the Willamette River. Request family suite sleeping 5.",
-      freeBreakfast: false,
-      separateRoom: true,
-      pool: true,
-      upgradeNote: "Eugene's classic riverside resort on the Willamette River. Suites with separate sleeping areas and river balconies. Pool, restaurant, walking/biking path along the river. The penultimate night deserves a little extra comfort.",
-      reason: "Riverside suites with balconies over the Willamette make this feel like a destination rather than just a highway stop. Good pool for the kids on the second-to-last night."
+      name: "Whiteaker Craftsman Bungalow — Eugene's Coolest Neighborhood",
+      isAirbnb: true,
+      pricePerNight: "$195",
+      roomConfig: "Entire bungalow · 2 bed · sleeps 5",
+      bookingUrl: "https://www.airbnb.com/s/Eugene--OR/homes?checkin=2026-06-09&checkout=2026-06-10&adults=2&children=3&min_bedrooms=2",
+      reason: "Eugene's Whiteaker neighborhood has the best food, coffee, and street art in the city. A craftsman bungalow here beats any hotel — walkable to dinner, quiet streets for the kids to wind down on the penultimate night.",
+      amenities: ["Full kitchen", "2 bedrooms", "Patio/yard", "Walking distance to restaurants", "Washer/dryer"]
     }
   },
 
@@ -820,17 +745,13 @@ window.HOTEL_DATA = {
       reason: "Embassy Suites guarantees the two-room suite with a closing door — adults get their evening to celebrate the end of the trip. Free full breakfast means morning-of-party logistics are handled."
     },
     optionC: {
-      name: "The Nines Hotel Portland — A Luxury Collection Hotel",
-      stars: 5,
-      bookingUrl: "https://www.thenines.com",
-      pricePerNight: "$380",
-      priceNote: "Estimated; verify at thenines.com for June 2026. Suites significantly higher.",
-      roomConfig: "Premium city-view suites available with separate living areas. Request family suite or connecting rooms for 5.",
-      freeBreakfast: false,
-      separateRoom: true,
-      pool: false,
-      upgradeNote: "An iconic Marriott Luxury Collection hotel in a historic 1909 building at the heart of downtown Portland. The trip finale deserves a splurge — great spa, rooftop vibes, and walking distance to the party venue.",
-      reason: "End the road trip in style at Portland's most celebrated luxury hotel. After 19 nights on the road, you've earned it."
+      name: "Portland Treehouse in the Treetops — Alberta Arts District",
+      isAirbnb: true,
+      pricePerNight: "$220",
+      roomConfig: "Entire treehouse · 2 bed · sleeps 5",
+      bookingUrl: "https://www.airbnb.com/s/Portland--OR/homes?checkin=2026-06-10&checkout=2026-06-11&adults=2&children=3&min_bedrooms=2",
+      reason: "End the trip with something unforgettable: a treehouse in Portland's Alberta Arts District. The kids will talk about sleeping in a treehouse for years. You're 20 minutes from the party venue and in the most interesting neighborhood in Portland.",
+      amenities: ["Unique treehouse structure", "Full kitchen", "2 bedrooms", "Outdoor deck", "Alberta Arts District location"]
     }
   }
 };
