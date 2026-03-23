@@ -494,9 +494,9 @@ window.HOTEL_DATA = {
     optionB: {
       name: "Elk Meadow Cabins — Orick (National Park Cabin)",
       stars: 2,
-      bookingUrl: "[LINK: search \"Elk Meadow Cabins Orick Redwood National Park rental\"]",
+      bookingUrl: "https://elkmeadowcabins.com/",
       pricePerNight: "$180",
-      priceNote: "[PRICE: verify at recreation.gov or direct booking — availability is very limited]",
+      priceNote: "Estimated $150–200/night; verify at elkmeadowcabins.com. Very limited availability — book as early as possible.",
       roomConfig: "Historic ranch cabin complex within Redwood National Park. Multiple buildings available for group rental. Contact the park directly for availability.",
       freeBreakfast: false,
       separateRoom: true,
@@ -535,7 +535,7 @@ window.HOTEL_DATA = {
     optionB: {
       name: "Curly Redwood Lodge — Crescent City",
       stars: 2,
-      bookingUrl: "[LINK: search \"Curly Redwood Lodge Crescent City booking\"]",
+      bookingUrl: "https://www.booking.com/hotel/us/curly-redwood-lodge.html",
       pricePerNight: "$115",
       priceNote: "Estimated; verify directly. A genuinely unique property — 2-bedroom units available.",
       roomConfig: "The lodge was built entirely from a single curly redwood tree milled in 1957. Units include family rooms with 2 beds; suites with separate sleeping areas available. Request largest unit for family of 5.",
@@ -574,9 +574,9 @@ window.HOTEL_DATA = {
     optionB: {
       name: "Ocean Suites Motel — Brookings",
       stars: 3,
-      bookingUrl: "[LINK: search \"Ocean Suites Motel Brookings Oregon booking\"]",
+      bookingUrl: "https://oceansuitesmotel.com/",
       pricePerNight: "$200",
-      priceNote: "[PRICE: verify at booking — oceanfront commands premium in June]",
+      priceNote: "Estimated $180–220 for June; verify at oceansuitesmotel.com. Oceanfront rooms command a premium in peak season.",
       roomConfig: "Two-room oceanfront suites with separate bedroom + living area with sleeper sofa. Closing door between rooms. Kitchen in suite. Ocean views.",
       freeBreakfast: false,
       separateRoom: true,
