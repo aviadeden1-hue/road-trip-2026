@@ -114,7 +114,7 @@ window.ROUTE_DATA = [
     driveHours: 1.5,
     driveMapsUrl: "https://www.google.com/maps/dir/San+Francisco,+CA/Windsor,+CA",
     dayType: "drive",
-    note: "1.5-hr drive north on US-101. Arrive Windsor for mandatory family visit. Windsor is in Sonoma County, ~8 miles north of Santa Rosa."
+    note: "1.5-hr drive north on US-101. Arrive Windsor for family visit. Windsor is in Sonoma County, ~8 miles north of Santa Rosa."
   },
   {
     dayNumber: 10,
