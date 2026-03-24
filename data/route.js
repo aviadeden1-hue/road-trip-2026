@@ -10,7 +10,7 @@ window.ROUTE_DATA = [
     driveHours: 0.5,
     driveMapsUrl: "https://www.google.com/maps/dir/Los+Angeles+International+Airport/Santa+Monica,+CA",
     dayType: "chill",
-    note: "Flight DL358 lands 9:20 AM (Saturday). Pick up SUV at LAX, 30-min drive to Santa Monica. All-walkable day: Farmers Market (open til 1 PM!), Tongva Park, Pier & Pacific Park, Aquarium, Annenberg Beach House, Third Street Promenade dinner, Venice Beach sunset walk. No car needed after arrival."
+    note: "Flight DL358 lands 9:20 AM (Saturday). Pick up SUV at LAX, 30-min drive to Santa Monica. All-walkable day: Farmers Market (open til 1 PM!), Tongva Park, Pier & Pacific Park, Aquarium, Annenberg Beach House, Third Street Promenade dinner, Muscle Beach sunset acrobats. No car needed after arrival."
   },
   {
     dayNumber: 2,
@@ -23,7 +23,7 @@ window.ROUTE_DATA = [
     driveHours: 2.0,
     driveMapsUrl: "https://www.google.com/maps/dir/Santa+Monica,+CA/Getty+Center,+Los+Angeles,+CA/Griffith+Observatory,+Los+Angeles,+CA/La+Brea+Tar+Pits,+Los+Angeles,+CA/Rodeo+Drive,+Beverly+Hills,+CA/Santa+Monica,+CA",
     dayType: "explore",
-    note: "Sunday LA loop: Getty Center (tram + gardens, opens 10 AM) → Griffith Observatory (views + telescopes) → La Brea Tar Pits (ice age fossils) → Rodeo Drive (quick walk) → back to Santa Monica for Original Muscle Beach sunset acrobats."
+    note: "Sunday LA loop: Getty Center (tram + gardens, opens 10 AM) → Griffith Observatory (views + telescopes) → La Brea Tar Pits (ice age fossils) → Rodeo Drive (quick walk) → Venice Beach boardwalk & canals sunset walk."
   },
   {
     dayNumber: 3,

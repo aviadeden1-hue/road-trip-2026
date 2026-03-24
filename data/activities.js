@@ -74,14 +74,14 @@ window.ACTIVITY_DATA = {
         npsCovered: false
       },
       {
-        name: "Venice Beach Boardwalk & Canals",
+        name: "Original Muscle Beach — Sunset Acrobats",
         type: "outdoor",
         price: "Free",
-        description: "A mile-long pedestrian promenade packed with street performers, artists, skateboarders, and the famous Muscle Beach outdoor gym. Rent bikes or rollerblades and cruise the Strand path. The Venice Canals (a short walk inland) are a quiet, photogenic detour the kids will enjoy. Great for a sunset walk — 1.5 miles from the Promenade along the beach path.",
-        duration: "1.5–2 hours",
-        link: "https://www.venicebeach.com",
-        lat: 33.9850,
-        lng: -118.4695,
+        description: "End the day steps from the Pier at the original Muscle Beach (not the Venice weight-lifting pen). Circus-style acrobatics have been performed here since the 1930s. On weekend afternoons and evenings, gymnasts and acrobats still perform on the rings and bars. Completely free, genuinely thrilling for kids, and a perfect sunset activity. Right next to Third Street Promenade — no extra walking.",
+        duration: "1 hour",
+        link: "[LINK: search \"original Muscle Beach Santa Monica Pier acrobatics\"]",
+        lat: 34.0089,
+        lng: -118.4973,
         kidFriendly: true,
         npsCovered: false
       }
@@ -152,14 +152,14 @@ window.ACTIVITY_DATA = {
         npsCovered: false
       },
       {
-        name: "Original Muscle Beach — Sunset Acrobats",
+        name: "Venice Beach Boardwalk & Canals — Sunset Walk",
         type: "outdoor",
         price: "Free",
-        description: "End the day back in Santa Monica at the original Muscle Beach (not the Venice weight-lifting pen). This is where circus-style acrobatics have been performed since the 1930s. On Sunday afternoons and evenings, gymnasts and acrobats still perform on the rings and bars. Completely free, genuinely thrilling for kids, and a perfect sunset activity.",
-        duration: "1 hour",
-        link: "[LINK: search \"original Muscle Beach Santa Monica Pier acrobatics\"]",
-        lat: 34.0089,
-        lng: -118.4973,
+        description: "End the day with a sunset walk along Venice Beach. A mile-long promenade packed with street performers, artists, skateboarders, and the famous Muscle Beach outdoor gym. The Venice Canals (a short walk inland) are a quiet, photogenic detour the kids will enjoy. Rent bikes or rollerblades and cruise the Strand path. A perfect wind-down after the LA driving loop.",
+        duration: "1.5–2 hours",
+        link: "https://www.venicebeach.com",
+        lat: 33.9850,
+        lng: -118.4695,
         kidFriendly: true,
         npsCovered: false
       }
