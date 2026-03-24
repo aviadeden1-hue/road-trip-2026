@@ -2,6 +2,30 @@ window.ACTIVITY_DATA = {
   1: {
     activities: [
       {
+        name: "Santa Monica Farmers Market",
+        type: "outdoor/food",
+        price: "Free to browse",
+        description: "You land on a Saturday — the famous Santa Monica Farmers Market (Arizona Ave & 2nd St) runs 8:30 AM–1 PM. One of the best in California: farm-fresh fruit, tamales, crepes, fresh-squeezed juice. Perfect first lunch in LA with the kids. Grab snacks for the hotel too.",
+        duration: "1 hour",
+        link: "https://www.smgov.net/portals/farmersmarket/",
+        lat: 34.0185,
+        lng: -118.4939,
+        kidFriendly: true,
+        npsCovered: false
+      },
+      {
+        name: "Tongva Park",
+        type: "outdoor/park",
+        price: "Free",
+        description: "A beautifully designed 6-acre park right next to the ocean in downtown Santa Monica. Features unique climbing structures, water play areas, and winding paths kids love to explore. One of the best free play spaces in the LA area. Let the kids burn off plane energy here. 5-min walk from the Farmers Market.",
+        duration: "1–1.5 hours",
+        link: "https://www.santamonica.gov/places/parks/tongva-park",
+        lat: 34.0132,
+        lng: -118.4975,
+        kidFriendly: true,
+        npsCovered: false
+      },
+      {
         name: "Santa Monica Pier & Pacific Park",
         type: "outdoor/amusement",
         price: "Free to walk pier; rides $8–$20 each or unlimited wristband",
@@ -18,7 +42,7 @@ window.ACTIVITY_DATA = {
         type: "indoor/educational",
         price: "$12 adults, $5 kids 4–12, free under 4",
         description: "Tucked underneath the Santa Monica Pier at beach level, this marine education aquarium features touch tanks with sea stars, urchins, and local tide-pool creatures. Small but wonderfully hands-on for young kids — a favorite for the 4–8 age range.",
-        duration: "1–1.5 hours",
+        duration: "45 min–1 hour",
         link: "https://healthebay.org/aquarium/",
         lat: 34.0089,
         lng: -118.4982,
@@ -26,47 +50,10 @@ window.ACTIVITY_DATA = {
         npsCovered: false
       },
       {
-        name: "Venice Beach Boardwalk",
-        type: "outdoor",
-        price: "Free",
-        description: "A mile-long pedestrian promenade packed with street performers, artists, skateboarders, and the famous Muscle Beach outdoor gym. Rent bikes or rollerblades and cruise the 22-mile Strand path. The Venice Canals (a short walk inland) are a quiet, photogenic detour the kids will enjoy.",
-        duration: "1.5–2 hours",
-        link: "https://www.venicebeach.com",
-        lat: 33.9850,
-        lng: -118.4695,
-        kidFriendly: true,
-        npsCovered: false
-      }
-    ],
-    scenicDrives: [
-      {
-        name: "Pacific Coast Highway — Santa Monica to Malibu",
-        description: "Drive north on PCH from Santa Monica for a gorgeous ocean-side stretch. Pull over at any of the Malibu beach parking lots for a quick look at the Pacific. The first 10 miles hug the coastline with mountains on one side and ocean on the other.",
-        duration: "30–45 min drive",
-        link: "https://www.google.com/maps/dir/Santa+Monica,+CA/Malibu,+CA/@34.0195,-118.6012,12z"
-      }
-    ],
-    hiddenGem: {
-      name: "Camera Obscura in Palisades Park",
-      description: "Inside a small building at the edge of Palisades Park (the clifftop bluff above the beach), this 19th-century optical device projects a live, moving image of the surrounding streets and ocean onto a round table in a darkened room. Free, open to the public, and genuinely fascinating for curious kids. Most tourists walk right past it.",
-      link: "[LINK: search \"Camera Obscura Palisades Park Santa Monica\"]"
-    },
-    rainyDay: {
-      name: "Griffith Observatory",
-      description: "About 25 minutes from Santa Monica, Griffith Observatory is free to enter and has spectacular views of LA plus hands-on astronomy exhibits, a solar telescope, and the Samuel Oschin Planetarium. Planetarium shows are $7/adult, $3/child. A great rainy escape — the interior exhibits alone fill 1.5 hours.",
-      price: "Free admission; Planetarium show $7 adults, $3 children",
-      link: "https://griffithobservatory.lacity.gov",
-      icon: "🌧"
-    }
-  },
-
-  2: {
-    activities: [
-      {
         name: "Annenberg Community Beach House",
         type: "outdoor/free",
-        price: "Free (splash pad and playground); Pool admission extra",
-        description: "A wonderful Santa Monica gem on Pacific Coast Highway. The splash pad is completely free — water jets shoot from the ground in patterns young kids love. There's also a playground, beach volleyball courts, and a view deck overlooking the ocean. The pool requires a small fee but the free areas alone are worth a stop.",
+        price: "Free (splash pad and playground); Pool ~$10/person extra",
+        description: "A Santa Monica gem on PCH just north of the pier. The splash pad is completely free — water jets shoot from the ground in patterns young kids love. Playground, beach volleyball courts, and an ocean-view deck. The pool is a small extra fee. Great mid-afternoon decompression stop after the pier.",
         duration: "1.5–2 hours",
         link: "https://www.santamonica.gov/places/cultural-venue/annenberg-community-beach-house",
         lat: 34.0213,
@@ -75,42 +62,113 @@ window.ACTIVITY_DATA = {
         npsCovered: false
       },
       {
-        name: "Tongva Park",
-        type: "outdoor/park",
-        price: "Free",
-        description: "A beautifully designed 6-acre park right next to the ocean in downtown Santa Monica. Features unique climbing structures, water play areas, and winding paths kids love to explore. One of the best free play spaces in the LA area. The park's design is inspired by the native Tongva people of the LA basin.",
-        duration: "1–1.5 hours",
-        link: "https://www.santamonica.gov/places/parks/tongva-park",
-        lat: 34.0132,
-        lng: -118.4975,
-        kidFriendly: true,
-        npsCovered: false
-      },
-      {
-        name: "Third Street Promenade & Santa Monica Farmers Market",
+        name: "Third Street Promenade",
         type: "outdoor/walking",
         price: "Free to walk",
-        description: "A lively pedestrian shopping street in downtown Santa Monica with street performers, open-air restaurants, and shops. On Wednesday and Saturday mornings, the nearby Santa Monica Farmers Market is one of the best in California — great for snacks, fresh fruit, and people-watching with kids.",
+        description: "A lively pedestrian shopping street in downtown Santa Monica with street performers, open-air restaurants, and shops. Great for dinner — tons of family-friendly restaurant options. Saturday evenings are especially lively with buskers and crowds.",
         duration: "1–2 hours",
         link: "https://www.downtownsm.com/sm-promenade",
         lat: 34.0162,
         lng: -118.4971,
         kidFriendly: true,
         npsCovered: false
-      }
-    ],
-    scenicDrives: [
+      },
       {
-        name: "Topanga Canyon Road",
-        description: "Head north on PCH then turn inland onto Topanga Canyon Blvd (CA-27) for a winding drive through the Santa Monica Mountains. The canyon is lush and shaded, with a bohemian village at its center. Makes a nice 1-hour loop back to Santa Monica via Mulholland Drive.",
-        duration: "1 hour loop",
-        link: "[LINK: search \"Topanga Canyon scenic drive Santa Monica Mountains\"]"
+        name: "Venice Beach Boardwalk & Canals",
+        type: "outdoor",
+        price: "Free",
+        description: "A mile-long pedestrian promenade packed with street performers, artists, skateboarders, and the famous Muscle Beach outdoor gym. Rent bikes or rollerblades and cruise the Strand path. The Venice Canals (a short walk inland) are a quiet, photogenic detour the kids will enjoy. Great for a sunset walk — 1.5 miles from the Promenade along the beach path.",
+        duration: "1.5–2 hours",
+        link: "https://www.venicebeach.com",
+        lat: 33.9850,
+        lng: -118.4695,
+        kidFriendly: true,
+        npsCovered: false
       }
     ],
+    scenicDrives: [],
     hiddenGem: {
-      name: "Original Muscle Beach (by the Pier)",
-      description: "The original Muscle Beach is not the famous weight-lifting pen in Venice — it's the older site right next to the Santa Monica Pier where circus-style acrobatics have been performed since the 1930s. On weekend afternoons, gymnasts and acrobats still perform here. Completely free to watch and genuinely fun for kids who love physical feats.",
-      link: "[LINK: search \"original Muscle Beach Santa Monica Pier acrobatics\"]"
+      name: "Camera Obscura in Palisades Park",
+      description: "Inside a small building at the edge of Palisades Park (the clifftop bluff above the beach), this 19th-century optical device projects a live, moving image of the surrounding streets and ocean onto a round table in a darkened room. Free, open to the public, and genuinely fascinating for curious kids. Most tourists walk right past it.",
+      link: "[LINK: search \"Camera Obscura Palisades Park Santa Monica\"]"
+    },
+    rainyDay: {
+      name: "California Science Center",
+      description: "About 20 minutes from Santa Monica, this is one of the best free science museums in the US. Home to the actual Space Shuttle Endeavour — kids can stand underneath it. Interactive exhibits cover air, space, ecosystems, and the human body. The Endeavour exhibit costs $5 extra but is unmissable for space-curious kids.",
+      price: "Free admission; Space Shuttle Endeavour exhibit $5",
+      link: "https://californiasciencecenter.org",
+      icon: "🌧"
+    }
+  },
+
+  2: {
+    activities: [
+      {
+        name: "The Getty Center",
+        type: "indoor/cultural",
+        price: "Free admission; parking $20",
+        description: "One of LA's best attractions. A futuristic tram carries you up to Richard Meier's hilltop campus of white travertine buildings. The Central Garden is a maze-like stream garden kids love to explore. Panoramic views of the ocean, mountains, and downtown LA. World-class art (Van Gogh's Irises, Monet, Rembrandt) plus weekend family programs and scavenger hunts. Opens at 10 AM.",
+        duration: "1.5–2 hours",
+        link: "https://www.getty.edu/visit/center/",
+        lat: 34.0780,
+        lng: -118.4741,
+        kidFriendly: true,
+        npsCovered: false
+      },
+      {
+        name: "Griffith Observatory",
+        type: "indoor-outdoor/educational",
+        price: "Free admission; Planetarium show $7 adults, $3 children",
+        description: "Free to enter with spectacular views of LA, the Hollywood Sign, and the Pacific. Hands-on astronomy exhibits, a solar telescope, and the Samuel Oschin Planetarium. The Tesla coil demonstration is a hit with kids. Sunset from here is magical. Parking warning: Sundays are brutal — take the DASH shuttle from the Greek Theatre parking lot or rideshare up.",
+        duration: "1.5–2 hours",
+        link: "https://griffithobservatory.lacity.gov",
+        lat: 34.1184,
+        lng: -118.3004,
+        kidFriendly: true,
+        npsCovered: false
+      },
+      {
+        name: "La Brea Tar Pits & Museum",
+        type: "indoor/educational",
+        price: "~$15 adults, ~$7 kids 2–12, free under 2",
+        description: "Real tar pits still bubbling with natural asphalt in the middle of LA. The museum has ice age fossils — mammoths, saber-toothed cats, dire wolves — all pulled from this exact spot. Kids love the active excavation site where you can watch paleontologists at work. One of the most unique science experiences in the country.",
+        duration: "1–1.5 hours",
+        link: "https://tarpits.org",
+        lat: 34.0639,
+        lng: -118.3553,
+        kidFriendly: true,
+        npsCovered: false
+      },
+      {
+        name: "Rodeo Drive",
+        type: "outdoor/walking",
+        price: "Free to walk (shopping is another story)",
+        description: "A quick walk through Beverly Hills' famous luxury shopping street. Kids won't care about the stores but the photo ops and people-watching are fun. The Via Rodeo cobblestone alley is the most photogenic spot. 15 minutes is enough unless you're shopping.",
+        duration: "30 min",
+        link: "https://www.rodeodrive-bh.com",
+        lat: 34.0674,
+        lng: -118.4003,
+        kidFriendly: true,
+        npsCovered: false
+      },
+      {
+        name: "Original Muscle Beach — Sunset Acrobats",
+        type: "outdoor",
+        price: "Free",
+        description: "End the day back in Santa Monica at the original Muscle Beach (not the Venice weight-lifting pen). This is where circus-style acrobatics have been performed since the 1930s. On Sunday afternoons and evenings, gymnasts and acrobats still perform on the rings and bars. Completely free, genuinely thrilling for kids, and a perfect sunset activity.",
+        duration: "1 hour",
+        link: "[LINK: search \"original Muscle Beach Santa Monica Pier acrobatics\"]",
+        lat: 34.0089,
+        lng: -118.4973,
+        kidFriendly: true,
+        npsCovered: false
+      }
+    ],
+    scenicDrives: [],
+    hiddenGem: {
+      name: "Griffith Observatory at Night",
+      description: "If you time it right, stay at Griffith through sunset into twilight. The free telescopes open at dusk and you can look at the moon, planets, and stars through the rooftop Zeiss refractor. The city lights spreading below you are iconic. The kids will remember looking through a real telescope at Saturn's rings.",
+      link: "https://griffithobservatory.lacity.gov/public-telescopes"
     },
     rainyDay: {
       name: "California Science Center",
@@ -162,10 +220,10 @@ window.ACTIVITY_DATA = {
     ],
     scenicDrives: [
       {
-        name: "East Cabrillo Boulevard — Waterfront Drive",
-        description: "A beautiful flat drive (or bike ride!) along Santa Barbara's waterfront from the harbor past East Beach to Stearns Wharf. Palm-lined boulevard with the Pacific on one side and the Santa Barbara mountains on the other — quintessential California. Wheel Fun Rentals near the wharf has surrey bikes for families.",
-        duration: "30 min drive or 1-hr bike",
-        link: "[LINK: search \"East Cabrillo Boulevard Santa Barbara waterfront\"]"
+        name: "PCH through Malibu to Santa Barbara",
+        description: "Take PCH (Highway 1) north from Santa Monica instead of the inland 101. The drive hugs the coastline through Malibu — stop at Point Dume for a short clifftop walk with ocean panoramas, or at Malibu Pier for a quick stretch. Past Malibu, PCH continues through Point Mugu State Park (dramatic sea cliffs) before merging onto 101 at Ventura for the final stretch to Santa Barbara. Adds 30–45 min vs the freeway but infinitely more beautiful.",
+        duration: "2.5–3 hrs with one stop",
+        link: "https://www.google.com/maps/dir/Santa+Monica,+CA/Point+Dume,+Malibu,+CA/Santa+Barbara,+CA"
       }
     ],
     hiddenGem: {

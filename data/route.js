@@ -10,7 +10,7 @@ window.ROUTE_DATA = [
     driveHours: 0.5,
     driveMapsUrl: "https://www.google.com/maps/dir/Los+Angeles+International+Airport/Santa+Monica,+CA",
     dayType: "chill",
-    note: "Flight DL358 lands 9:20 AM. Pick up SUV at LAX, short 30-min drive to Santa Monica. Rest and explore the beach area."
+    note: "Flight DL358 lands 9:20 AM (Saturday). Pick up SUV at LAX, 30-min drive to Santa Monica. All-walkable day: Farmers Market (open til 1 PM!), Tongva Park, Pier & Pacific Park, Aquarium, Annenberg Beach House, Third Street Promenade dinner, Venice Beach sunset walk. No car needed after arrival."
   },
   {
     dayNumber: 2,
@@ -19,11 +19,11 @@ window.ROUTE_DATA = [
     region: "LA Area",
     lat: 34.0195,
     lng: -118.4912,
-    driveFrom: "Santa Monica",
-    driveHours: 0,
-    driveMapsUrl: "https://www.google.com/maps/dir/Santa+Monica,+CA/Santa+Monica,+CA",
+    driveFrom: "Santa Monica (loop)",
+    driveHours: 2.0,
+    driveMapsUrl: "https://www.google.com/maps/dir/Santa+Monica,+CA/Getty+Center,+Los+Angeles,+CA/Griffith+Observatory,+Los+Angeles,+CA/La+Brea+Tar+Pits,+Los+Angeles,+CA/Rodeo+Drive,+Beverly+Hills,+CA/Santa+Monica,+CA",
     dayType: "explore",
-    note: "Full LA day: Venice Beach boardwalk, Santa Monica Pier, Getty Center. No driving needed — walk or rideshare."
+    note: "Sunday LA loop: Getty Center (tram + gardens, opens 10 AM) → Griffith Observatory (views + telescopes) → La Brea Tar Pits (ice age fossils) → Rodeo Drive (quick walk) → back to Santa Monica for Original Muscle Beach sunset acrobats."
   },
   {
     dayNumber: 3,
@@ -33,10 +33,10 @@ window.ROUTE_DATA = [
     lat: 34.4208,
     lng: -119.6982,
     driveFrom: "Santa Monica",
-    driveHours: 2.0,
-    driveMapsUrl: "https://www.google.com/maps/dir/Santa+Monica,+CA/Santa+Barbara,+CA",
+    driveHours: 2.5,
+    driveMapsUrl: "https://www.google.com/maps/dir/Santa+Monica,+CA/Point+Dume,+Malibu,+CA/Santa+Barbara,+CA",
     dayType: "drive",
-    note: "2-hr drive north on US-101. Channel Islands NP is off Ventura coast but flagged as SKIP — boat logistics with a 4-year-old are impractical; tradeoff noted. Santa Barbara: State Street, Stearns Wharf."
+    note: "Take PCH north through Malibu (stunning coastal drive!) instead of the inland 101. Stop at Point Dume or Malibu Pier, then continue past Point Mugu sea cliffs to Ventura and on to Santa Barbara. Adds 30 min but the Malibu coast is the drive. Santa Barbara: State Street, Stearns Wharf, MOXI museum."
   },
   {
     dayNumber: 4,
