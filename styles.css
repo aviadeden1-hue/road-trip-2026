@@ -1005,6 +1005,12 @@ button {
   text-align: center;
 }
 
+.section-header-sub {
+  font-weight: 400;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+}
+
 .section-chevron {
   font-size: 0.7rem;
   color: var(--text-muted);

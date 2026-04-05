@@ -398,7 +398,7 @@ function buildDayCard(day) {
     const sectionsWrapper = document.createElement('div');
     sectionsWrapper.className = 'card-sections';
     sectionsWrapper.appendChild(buildCollapsible('🏨', 'Hotel Tonight', buildHotelContent(day), false));
-    sectionsWrapper.appendChild(buildCollapsible('🌙', 'Evening / Grocery', buildEveningContent(day), false));
+    sectionsWrapper.appendChild(buildCollapsible('🌙', 'Evening' + getDinnerLabel(day), buildEveningContent(day), false));
     body.appendChild(sectionsWrapper);
     card.appendChild(body);
     return card;
@@ -414,7 +414,7 @@ function buildDayCard(day) {
   }
   sectionsWrapper.appendChild(buildCollapsible('☀️', 'Morning', buildTimeOfDayContent(day, 'morning'), false));
   sectionsWrapper.appendChild(buildCollapsible('🌤', 'Afternoon', buildTimeOfDayContent(day, 'afternoon'), false));
-  sectionsWrapper.appendChild(buildCollapsible('🌙', 'Evening', buildEveningContent(day), false));
+  sectionsWrapper.appendChild(buildCollapsible('🌙', 'Evening' + getDinnerLabel(day), buildEveningContent(day), false));
   sectionsWrapper.appendChild(buildCollapsible('🏨', 'Hotel Tonight', buildHotelContent(day), false));
   sectionsWrapper.appendChild(buildCollapsible('📝', 'My Notes', buildNotesContent(day), false));
 
@@ -508,16 +508,36 @@ function buildCardHeader(day) {
 }
 
 /* ── Collapsible Section Builder ── */
+function getDinnerLabel(day) {
+  var foodData = window.FOOD_DATA && window.FOOD_DATA[day.dayNumber];
+  if (!foodData) return '';
+  if (foodData.dinnerType === 'grocery') {
+    var store = foodData.groceryStore;
+    if (store) {
+      var city = store.name.split('—').pop().trim().split(',')[0].trim();
+      return '· Walmart ' + city;
+    }
+    return '· Grocery night';
+  }
+  if (foodData.dinnerType === 'restaurant' && foodData.dinner && foodData.dinner.name) {
+    return '· ' + foodData.dinner.name;
+  }
+  return '';
+}
+
 function buildCollapsible(iconEmoji, title, contentEl, openByDefault, isRainy) {
   const section = document.createElement('div');
   section.className = 'collapsible-section' + (openByDefault ? ' open' : '') + (isRainy ? ' rainy-section' : '');
 
   const headerEl = document.createElement('div');
   headerEl.className = 'section-header';
+  var titleParts = title.split('·');
+  var titleMain = escapeHtml(titleParts[0].trim());
+  var titleSub = titleParts.length > 1 ? ' <span class="section-header-sub">· ' + escapeHtml(titleParts[1].trim()) + '</span>' : '';
   headerEl.innerHTML =
     '<div class="section-header-left">' +
       '<span class="section-header-icon">' + iconEmoji + '</span>' +
-      '<span>' + escapeHtml(title) + '</span>' +
+      '<span>' + titleMain + titleSub + '</span>' +
     '</div>' +
     '<span class="section-chevron">▼</span>';
 
