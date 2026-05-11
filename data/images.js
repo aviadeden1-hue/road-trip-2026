@@ -17,7 +17,7 @@ window.IMAGE_DATA = {
   8:  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Tunnel_View%2C_Yosemite_Valley%2C_Yosemite_NP_-_Diliff.jpg/1280px-Tunnel_View%2C_Yosemite_Valley%2C_Yosemite_NP_-_Diliff.jpg",
   9:  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Half_Dome_from_Glacier_Point%2C_Yosemite_NP_-_Diliff.jpg/1280px-Half_Dome_from_Glacier_Point%2C_Yosemite_NP_-_Diliff.jpg",
   10: "https://upload.wikimedia.org/wikipedia/commons/9/98/ColumbiaCAMainSt.jpg",
-  11: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/GoldenGateBridge-001.jpg/1200px-GoldenGateBridge-001.jpg",
+  11: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Golden_Gate_Bridge_and_San_Francisco_skyline_from_Hawk_Hill_at_Blue_Hour_dllu.jpg/1280px-Golden_Gate_Bridge_and_San_Francisco_skyline_from_Hawk_Hill_at_Blue_Hour_dllu.jpg",
   12: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Sonoma_Valley.jpg/1280px-Sonoma_Valley.jpg",
   13: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Sonoma_wine_country.jpg/1280px-Sonoma_wine_country.jpg",
   14: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Along_Avenue_Of_The_Giants%2C_redwood_forest._%2810303011194%29.jpg/1280px-Along_Avenue_Of_The_Giants%2C_redwood_forest._%2810303011194%29.jpg",
