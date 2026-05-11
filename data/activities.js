@@ -324,12 +324,12 @@ window.ACTIVITY_DATA = {
     }
   },
   "5": {
-    "activities": [
+    "morning": [
       {
         "name": "Monterey Bay Aquarium",
         "type": "indoor / museum",
-        "price": "$59.95 adults, $39.95 kids 5-12, $44.95 kids 3-4 (book timed tickets!)",
-        "description": "One of the world's greatest aquariums. The Open Sea exhibit has a million-gallon tank with hammerhead sharks, ocean sunfish, and sea turtles. The kelp forest is mesmerizing. Touch pools let kids handle sea stars and sea urchins. The sea otter exhibit is the highlight — rescued otters playing feet from the glass. Plan 3-4 hours minimum. This is a top-3 activity on the entire trip.",
+        "price": "$59.95 adults, $39.95 kids 5-12, $44.95 kids 3-4 (pre-booked tickets)",
+        "description": "One of the world's greatest aquariums — tickets already booked! The Open Sea exhibit has a million-gallon tank with hammerhead sharks, ocean sunfish, and sea turtles. The kelp forest is mesmerizing. Touch pools let kids handle sea stars and sea urchins. The sea otter exhibit is the highlight — rescued otters playing feet from the glass. Plan 3-4 hours. This is a top-3 activity on the entire trip.",
         "duration": "3-4 hours",
         "link": "https://www.montereybayaquarium.org",
         "lat": 36.6186,
@@ -337,166 +337,28 @@ window.ACTIVITY_DATA = {
         "kidFriendly": true,
         "npsCovered": false,
         "advanceBookingRequired": true,
-        "bookingNote": "Buy timed tickets at montereybayaquarium.org — sells out in summer. Book 2-4 weeks ahead."
+        "bookingNote": "Tickets pre-booked — confirm your timed entry time and arrive 10 min early."
       },
       {
         "name": "Cannery Row & Old Fisherman's Wharf",
         "type": "walking / sightseeing",
         "price": "Free to walk; food extra",
-        "description": "Walk the historic waterfront that inspired John Steinbeck's novel. Now lined with shops, restaurants, and galleries. Old Fisherman's Wharf has chowder vendors, salt water taffy, and sea lion viewing. A natural extension of the Aquarium visit.",
-        "duration": "1-2 hours",
+        "description": "Walk the historic waterfront after the Aquarium. Grab a clam chowder bread bowl on the Wharf — sea lions bark below, boats bob in the harbor. The quintessential Monterey afternoon before the drive east.",
+        "duration": "1 hour",
         "link": "https://www.canneryrow.com",
         "lat": 36.6121,
         "lng": -121.8994,
-        "kidFriendly": true,
-        "npsCovered": false
-      },
-      {
-        "name": "Carmel-by-the-Sea",
-        "type": "walking / sightseeing",
-        "price": "Free",
-        "description": "A fairytale village 5 miles south of Monterey. Storybook cottages with no street addresses, art galleries, and a stunning white-sand beach at the bottom of Ocean Avenue. Walk the compact downtown (8 blocks), peek into the courtyards hiding between shops, and end at Carmel Beach — one of the most beautiful city beaches in California. Dogs outnumber people. The whole town feels like a picture book.",
-        "duration": "1.5–2 hours",
-        "link": "https://www.carmelcalifornia.com",
-        "lat": 36.5554,
-        "lng": -121.9233,
-        "kidFriendly": true,
-        "npsCovered": false
-      }
-    ],
-    "scenicDrives": [],
-    "hiddenGem": {
-      "name": "Dennis the Menace Playground — Designed by Hank Ketcham",
-      "description": "A massive playground in El Estero Park designed by Dennis the Menace creator Hank Ketcham. Giant climbing structures, a real Southern Pacific locomotive to climb on, a hedge maze, and a roller slide. One of the best playgrounds in California. Free. A 5-minute drive from the Aquarium.",
-      "link": "https://www.google.com/maps/place/Dennis+the+Menace+Park/@36.5938,-121.8891,17z"
-    },
-    "rainyDay": null,
-    "priorities": {
-      "mustDo": [
-        "Monterey Bay Aquarium — one of the best aquariums in the world, give it 3-4 hours",
-        "Carmel-by-the-Sea — fairytale village and gorgeous beach, don't miss it",
-        "Cannery Row walk — natural extension of the Aquarium visit"
-      ],
-      "skipIfShort": [
-        "Dennis the Menace Playground — only if kids have energy after the Aquarium"
-      ]
-    }
-  },
-  "6": {
-    "morning": [
-      {
-        "name": "Monterey's Cannery Row & 17-Mile Drive",
-        "type": "walking / scenic drive",
-        "price": "17-Mile Drive: $11.75/car",
-        "description": "One last Monterey morning before heading south. Walk Cannery Row if you didn't yesterday, or drive the famous 17-Mile Drive through Pebble Beach — the Lone Cypress, Bird Rock, and stunning coastal views. Families with young kids may prefer the free Dennis the Menace Playground in El Estero Park instead (giant climbing structures, a real train engine, hedge maze). Depart for Big Sur by late morning.",
-        "duration": "1.5-2 hours",
-        "link": "https://www.pebblebeach.com/17-mile-drive/",
-        "lat": 36.5692,
-        "lng": -121.9611,
-        "kidFriendly": true,
-        "npsCovered": false
-      },
-      {
-        "name": "Big Sur Coastal Drive — CA-1 South",
-        "type": "scenic drive",
-        "price": "Free (gas only)",
-        "description": "One of the most spectacular coastal drives on Earth. The 90 miles from Monterey south to Cambria hugs sheer cliffs above the Pacific. Major stops: Bixby Bridge (iconic arched bridge, photo stop), McWay Falls (80-ft waterfall onto a pristine beach — 0.3 mi easy walk), and Julia Pfeiffer Burns SP. Go slow, stop at every pullout. This drive is the activity.",
-        "duration": "2.5-3 hours with stops",
-        "link": "https://www.google.com/maps/dir/Monterey,+CA/Bixby+Bridge,+CA/McWay+Falls,+Big+Sur,+CA/Cambria,+CA",
-        "lat": 36.3714,
-        "lng": -121.857,
         "kidFriendly": true,
         "npsCovered": false
       }
     ],
     "afternoon": [
       {
-        "name": "Hearst Castle",
-        "type": "indoor/cultural",
-        "price": "$25 adults, $12 kids 5-12, free under 5",
-        "description": "William Randolph Hearst's legendary hilltop estate overlooking the Pacific. The Grand Rooms Tour (recommended for families) takes about 45 min and covers the main house, Neptune Pool, and Roman Pool. The opulence is staggering — 165 rooms, 127 acres of gardens, and zebras still roam the grounds (visible from the road). Book timed tickets in advance.",
-        "duration": "2-2.5 hours (including bus ride)",
-        "link": "https://hearstcastle.org",
-        "lat": 35.6852,
-        "lng": -121.1682,
-        "kidFriendly": true,
-        "npsCovered": false,
-        "advanceBookingRequired": true,
-        "bookingNote": "Book timed tour tickets in advance at hearstcastle.org. Grand Rooms Tour is best for families with young kids. Summer weekends sell out."
-      }
-    ],
-    "evening": [
-      {
-        "name": "Cambria Moonstone Beach Boardwalk",
-        "type": "outdoor/walking",
-        "price": "Free",
-        "description": "A mile-long wooden boardwalk along Moonstone Beach. Search for moonstones and jade in the surf, watch otters in the kelp beds, and enjoy the sunset over the Pacific. Flat, stroller-friendly, and one of the most beautiful sunset walks on the Central Coast.",
-        "duration": "1 hour",
-        "link": "https://www.visitcambria.com",
-        "lat": 35.5753,
-        "lng": -121.1116,
-        "kidFriendly": true,
-        "npsCovered": false
-      }
-    ],
-    "scenicDrives": [
-      {
-        "name": "CA-1 Big Sur — Monterey to Cambria",
-        "description": "The full Big Sur coastal drive. Bixby Bridge, Point Sur Lighthouse, McWay Falls, Ragged Point. One of the most iconic drives in the world.",
-        "duration": "2.5-3 hours with stops",
-        "link": "https://www.google.com/maps/dir/Monterey,+CA/Cambria,+CA"
-      }
-    ],
-    "hiddenGem": {
-      "name": "Nitt Witt Ridge — Cambria's Folk Art Castle",
-      "description": "A folk art house built entirely from found objects (beer cans, abalone shells, car parts, toilet seats) by Art Beal over 50 years. It's a registered state historical landmark and the polar opposite of Hearst Castle — a perfect contrast. Tours by appointment only; even driving past is fun.",
-      "link": "https://www.visitcambria.com"
-    },
-    "rainyDay": null,
-    "priorities": {
-      "mustDo": [
-        "Morning Monterey — 17-Mile Drive or Dennis the Menace Playground",
-        "Big Sur coastal drive — Bixby Bridge and McWay Falls are unmissable",
-        "Hearst Castle — book the Grand Rooms Tour in advance"
-      ],
-      "skipIfShort": [
-        "17-Mile Drive — beautiful but costs $12 and takes 1+ hr. Skip if running late.",
-        "Cambria Moonstone Beach — lovely but just a walk, do it if time allows"
-      ]
-    }
-  },
-  "7": {
-    "activities": [
-      {
-        "name": "Piedras Blancas Elephant Seal Rookery",
-        "type": "outdoor/wildlife",
-        "price": "Free",
-        "description": "One of the most incredible free wildlife experiences in California. Thousands of northern elephant seals on the beach just off Highway 1 near San Simeon — a short drive north from Cambria before heading inland. A boardwalk overlook lets you watch them from just 20 feet away — they're enormous (males up to 5,000 lbs), loud, and completely wild. No reservation needed. Stop here first thing in the morning before heading to Paso Robles.",
-        "duration": "30-45 min",
-        "link": "https://elephantseal.org",
-        "lat": 35.6649,
-        "lng": -121.2569,
-        "kidFriendly": true,
-        "npsCovered": false
-      },
-      {
-        "name": "Paso Robles Candy Shop",
-        "type": "indoor/food",
-        "price": "Varies — candy!",
-        "description": "A must-stop in Paso Robles on the way inland. Stock up on handmade sweets, taffy, and chocolate. Paso Robles' downtown square is also great for a morning coffee and stroll.",
-        "duration": "30-45 min",
-        "link": "https://www.google.com/maps/search/candy+shop+Paso+Robles+CA",
-        "lat": 35.6265,
-        "lng": -120.691,
-        "kidFriendly": true,
-        "npsCovered": false
-      },
-      {
-        "name": "Casa de Fruta — Quirky Roadside Attraction",
+        "name": "Casa de Fruta — Roadside Attraction on CA-152 (if time allows)",
         "type": "roadside attraction",
         "price": "Free entry; rides/activities $3-8 each",
-        "description": "A sprawling roadside attraction on Pacheco Pass with fruit stands, a carousel, peacocks roaming free, a mini train ride, and a candy shop. It's been here since the 1940s and feels like stepping back in time. Perfect leg-stretch on the drive from the coast to Mariposa. Kids go nuts for the peacocks and train.",
-        "duration": "45 min – 1 hour",
+        "description": "A sprawling roadside attraction on Pacheco Pass with fruit stands, a carousel, peacocks roaming free, a mini train ride, and a candy shop. A fun leg-stretch on the drive to Mariposa — but skip it if you're leaving Monterey late (after 3 PM) to arrive Mariposa at a reasonable hour.",
+        "duration": "45 min",
         "link": "https://www.casadefruta.com",
         "lat": 36.8592,
         "lng": -121.4028,
@@ -504,28 +366,33 @@ window.ACTIVITY_DATA = {
         "npsCovered": false
       }
     ],
+    "evening": [],
     "scenicDrives": [
       {
         "name": "CA-152 Pacheco Pass",
-        "description": "The drive east over Pacheco Pass from US-101 climbs into California's Central Valley. Rolling golden hills, hawks circling overhead, and San Luis Reservoir views. A beautiful transition from coast to mountains.",
-        "duration": "1.5 hours",
-        "link": "https://www.google.com/maps/dir/Paso+Robles,+CA/Mariposa,+CA"
+        "description": "The drive east from Monterey over Pacheco Pass rises through golden California hills. San Luis Reservoir shimmers below. The landscape transitions from coastal green to Sierra gold as you head toward the mountains.",
+        "duration": "3.5–4 hours Monterey to Mariposa",
+        "link": "https://www.google.com/maps/dir/Monterey,+CA/Mariposa,+CA"
       }
     ],
-    "hiddenGem": null,
+    "hiddenGem": {
+      "name": "San Luis Reservoir Overlook",
+      "description": "Pull over at the Los Banos Creek Overlook on CA-152 for a view of the turquoise reservoir against golden hills. Often empty of tourists. A quick 5-minute stop.",
+      "link": "https://www.google.com/maps/search/San+Luis+Reservoir+State+Recreation+Area"
+    },
     "rainyDay": null,
     "priorities": {
       "mustDo": [
-        "Piedras Blancas Elephant Seal Rookery — free, unforgettable, first stop of the day",
-        "Paso Robles candy shop — quick stop, kids will love it",
-        "Casa de Fruta — the best leg-stretch stop on the drive to Mariposa"
+        "Monterey Bay Aquarium — tickets are booked, plan 3-4 hours",
+        "Clam chowder on the Wharf after — the quintessential Monterey experience",
+        "Leave Monterey by 3 PM latest to reach Mariposa before dinner"
       ],
       "skipIfShort": [
-        "Paso Robles downtown stroll beyond the candy shop — charming but time is tight on a big drive day"
+        "Casa de Fruta — skip if leaving Monterey after 3 PM, arrival in Mariposa is the priority"
       ]
     }
   },
-  "8": {
+  "6": {
     "morning": [
       {
         "name": "Lower Yosemite Fall Trail",
@@ -626,7 +493,7 @@ window.ACTIVITY_DATA = {
       "mustDo": [
         "Lower Yosemite Fall — the single most iconic view, thunderous in late May",
         "El Capitan Meadow — bring binoculars, spot rock climbers on the 3,000-ft wall",
-        "Tunnel View at sunset — the most photographed viewpoint in North America"
+        "Tunnel View at sunset — the most photographed viewpoint in North America (Thursday weekday means lighter crowds than weekends)"
       ],
       "skipIfShort": [
         "Swinging Bridge wading — fun but cold water, skip if short on time",
@@ -634,100 +501,312 @@ window.ACTIVITY_DATA = {
       ]
     }
   },
-  "9": {
+  "7": {
     "morning": [
       {
         "name": "Glacier Point (if road is open)",
         "type": "outdoor/viewpoint",
         "price": "Free — America the Beautiful Pass",
-        "description": "One of the most spectacular viewpoints in the entire national park system. A 3,214-foot drop straight down to the valley floor with panoramic views of Half Dome (at eye level!), Yosemite Falls, Vernal and Nevada Falls, and the High Sierra. The road typically opens in late May — check nps.gov/yose for current status. If closed, revisit valley favorites instead. The drive from Mariposa is ~1.5 hrs via CA-41.",
+        "description": "One of the most spectacular viewpoints in the entire national park system. A 3,214-foot drop straight down to the valley floor with panoramic views of Half Dome (at eye level!), Yosemite Falls, Vernal and Nevada Falls, and the High Sierra. Drive from Mariposa is ~2–2.5 hours via CA-41 (through Wawona). WARNING: Glacier Point Road typically opens late May to early June — May 29 is borderline and there is a real chance the road is still closed from winter snow. Check nps.gov/yose for current status before committing to this plan.",
         "duration": "1–1.5 hours at viewpoint",
         "link": "https://www.nps.gov/yose/planyourvisit/glacierpoint.htm",
         "lat": 37.7307,
         "lng": -119.5726,
         "kidFriendly": true,
         "npsCovered": true,
-        "bookingNote": "Glacier Point Road typically opens in late May but is snow-dependent. Check conditions: nps.gov/yose/planyourvisit/conditions.htm. If closed, spend the morning revisiting valley highlights."
-      }
-    ],
-    "afternoon": [
-      {
-        "name": "Sonora — Historic Gold Rush Main Street",
-        "type": "outdoor/walking",
-        "price": "Free",
-        "description": "Sonora (est. 1848) is the most authentic Gold Rush town in the Sierra foothills. Walk Washington Street's historic downtown — antique shops, the 1897 Sonora Opera House, the Tuolumne County Museum (free, in the old jailhouse), and several great restaurants. A charming, genuine small town. Stop at the Candy Vault for old-fashioned sweets.",
-        "duration": "1–2 hours",
-        "link": "https://www.visittuolumne.com/explore/sonora",
-        "lat": 37.9829,
-        "lng": -120.3822,
-        "kidFriendly": true,
-        "npsCovered": false
-      }
-    ],
-    "evening": [],
-    "scenicDrives": [
-      {
-        "name": "CA-120 Big Oak Flat Road — Yosemite to Sonora",
-        "description": "The western exit from Yosemite descends through the Big Oak Flat entrance and into the Gold Country foothills. The road passes through Groveland (a cute small town, good for a coffee stop) and drops into the Sonora valley. Beautiful Sierra foothill scenery the whole way.",
-        "duration": "1.5–2 hours",
-        "link": "https://www.google.com/maps/dir/Yosemite+Valley,+CA/Sonora,+CA"
-      }
-    ],
-    "hiddenGem": {
-      "name": "Groveland — Gold Rush Pit Stop",
-      "description": "A tiny Gold Rush town on CA-120 between Yosemite and Sonora with one of the oldest continuously operating saloons west of the Mississippi (Iron Door Saloon, est. 1852). The saloon has dollar bills pinned to the ceiling and is family-friendly during the day. Worth a 15-min stop.",
-      "link": "https://www.iron-door-saloon.com"
-    },
-    "rainyDay": null,
-    "priorities": {
-      "mustDo": [
-        "Glacier Point (if road is open) — possibly the best viewpoint in all the national parks",
-        "Sonora historic downtown — authentic Gold Rush town, charming evening walk"
-      ],
-      "skipIfShort": [
-        "Groveland pit stop — fun but just a quick detour if time allows"
-      ]
-    }
-  },
-  "10": {
-    "morning": [
-      {
-        "name": "Columbia State Historic Park — Living Gold Rush Town",
-        "type": "outdoor/historic",
-        "price": "Free admission; gold panning ~$10, stagecoach rides ~$6",
-        "description": "A remarkably preserved 1850s Gold Rush town — 12 square blocks of original buildings, now a California State Historic Park. Costumed docents, working blacksmith shop, stagecoach rides through town, a one-room schoolhouse, and gold panning troughs where you pan for real gold flakes. The old-timey candy store (Nelson's Columbia Candy Kitchen) makes fudge and taffy by hand. This is the kind of immersive history experience kids remember for years.",
-        "duration": "2–3 hours",
-        "link": "https://www.parks.ca.gov/?page_id=552",
-        "lat": 38.0335,
-        "lng": -120.401,
-        "kidFriendly": true,
-        "npsCovered": false,
-        "bookingNote": "No reservation needed — walk-in. Stagecoach rides run on a schedule; gold panning is first-come. Arrive by 10 AM for the best experience. Most activities open 10 AM – 5 PM."
+        "bookingNote": "CRITICAL: Glacier Point Road is snow-dependent and opens sometime between late May and early June. Check nps.gov/yose/planyourvisit/conditions.htm 1-2 days before. If closed: spend the morning on Valley floor hikes (Mirror Lake loop 5 mi, or Happy Isles to Vernal Fall footbridge 1.6 mi round-trip easy), then depart for Monterey by noon."
       }
     ],
     "afternoon": [],
     "evening": [],
     "scenicDrives": [
       {
-        "name": "CA-120 / I-580 — Gold Country to San Francisco",
-        "description": "The drive from Sonora/Columbia to SF crosses the Central Valley on CA-120 to I-5, then west on I-580 through the Altamont Pass wind farms (thousands of turbines lining the hills) and across the Bay Bridge into San Francisco. The Altamont turbines are a striking sight.",
-        "duration": "2.5–3 hours",
-        "link": "https://www.google.com/maps/dir/Columbia+State+Historic+Park,+CA/San+Francisco,+CA"
+        "name": "CA-140 El Portal Road — Yosemite to Merced Valley",
+        "description": "The drive back from Yosemite via CA-140 follows the Merced River through a stunning granite canyon for miles before opening into the Central Valley and US-101 west to Monterey. Some of California's most dramatic river gorge scenery.",
+        "duration": "4 hours Yosemite to Monterey",
+        "link": "https://www.google.com/maps/dir/Yosemite+Valley,+CA/Monterey,+CA"
       }
     ],
     "hiddenGem": {
-      "name": "Railtown 1897 State Historic Park — Jamestown",
-      "description": "5 minutes south of Sonora in Jamestown, this is the 'Movie Railroad' — the filming location for High Noon, Back to the Future Part III, Unforgiven, and dozens more. The roundhouse tour shows working steam locomotives. On weekends, you can ride a historic steam train. Kids who like trains will lose their minds.",
-      "link": "https://www.railtown1897.org"
+      "name": "Groveland — Gold Rush Pit Stop on CA-120",
+      "description": "If exiting via CA-120 instead of CA-140, Groveland is a tiny Gold Rush town with one of the oldest continuously operating saloons west of the Mississippi (Iron Door Saloon, est. 1852). Worth a 15-min stop.",
+      "link": "https://www.iron-door-saloon.com"
     },
     "rainyDay": null,
     "priorities": {
       "mustDo": [
-        "Columbia State Historic Park — gold panning, stagecoach, candy store — kids will love it",
-        "Nelson's Columbia Candy Kitchen — hand-pulled taffy and fudge in a 170-year-old building"
+        "Glacier Point (if road is open) — possibly the best viewpoint in all the national parks",
+        "Leave Yosemite by 1–2 PM to reach Monterey by early evening"
       ],
       "skipIfShort": [
-        "Railtown 1897 — amazing for train lovers but adds time before the SF drive"
+        "Groveland pit stop — fun if taking CA-120 exit, optional"
+      ]
+    }
+  },
+  "8": {
+    "morning": [
+      {
+        "name": "17-Mile Drive — Pebble Beach",
+        "type": "scenic drive",
+        "price": "$11.75/car",
+        "description": "A leisurely morning loop through Pebble Beach before the Big Sur drive. The Lone Cypress (one of the most photographed trees in the world), Bird Rock sea lions, and Stillwater Cove are highlights. Kids enjoy spotting the seals and the dramatic coastline. About 1.5 hours with stops.",
+        "duration": "1.5 hours",
+        "link": "https://www.pebblebeach.com/17-mile-drive/",
+        "lat": 36.5692,
+        "lng": -121.9611,
+        "kidFriendly": true,
+        "npsCovered": false
+      },
+      {
+        "name": "Carmel-by-the-Sea",
+        "type": "walking / sightseeing",
+        "price": "Free",
+        "description": "A fairytale village 5 miles south of Monterey — storybook cottages, no street addresses, art galleries, and a stunning white-sand beach. Walk the compact downtown and end at Carmel Beach before heading south on CA-1. If skipping 17-Mile Drive, this is the morning option.",
+        "duration": "1–1.5 hours",
+        "link": "https://www.carmelcalifornia.com",
+        "lat": 36.5554,
+        "lng": -121.9233,
+        "kidFriendly": true,
+        "npsCovered": false
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Big Sur Coastal Drive — CA-1 South",
+        "type": "scenic drive",
+        "price": "Free (gas only)",
+        "description": "One of the most spectacular coastal drives on Earth. The 90 miles from Monterey south to Cambria hugs sheer cliffs above the Pacific. Major stops: Bixby Bridge (iconic arched bridge, photo stop), McWay Falls (80-ft waterfall onto a pristine beach — 0.3 mi easy walk), and Julia Pfeiffer Burns SP. Go slow, stop at every pullout. Depart by noon for a relaxed Big Sur drive with time for stops.",
+        "duration": "2.5-3 hours with stops",
+        "link": "https://www.google.com/maps/dir/Monterey,+CA/Bixby+Bridge,+CA/McWay+Falls,+Big+Sur,+CA/Cambria,+CA",
+        "lat": 36.3714,
+        "lng": -121.857,
+        "kidFriendly": true,
+        "npsCovered": false
+      },
+      {
+        "name": "Hearst Castle",
+        "type": "indoor/cultural",
+        "price": "$25 adults, $12 kids 5-12, free under 5",
+        "description": "William Randolph Hearst's legendary hilltop estate overlooking the Pacific. The Grand Rooms Tour covers the main house, Neptune Pool, and Roman Pool. 165 rooms, 127 acres, and zebras still roam the grounds. Book timed tickets in advance.",
+        "duration": "2-2.5 hours (including bus ride)",
+        "link": "https://hearstcastle.org",
+        "lat": 35.6852,
+        "lng": -121.1682,
+        "kidFriendly": true,
+        "npsCovered": false,
+        "advanceBookingRequired": true,
+        "bookingNote": "Book timed tour tickets in advance at hearstcastle.org. Grand Rooms Tour is best for families. Summer weekends sell out."
+      }
+    ],
+    "evening": [
+      {
+        "name": "Cambria Moonstone Beach Boardwalk",
+        "type": "outdoor/walking",
+        "price": "Free",
+        "description": "A mile-long wooden boardwalk along Moonstone Beach. Search for moonstones and jade in the surf, watch otters in the kelp beds, and enjoy the sunset over the Pacific. Flat, stroller-friendly, and one of the most beautiful sunset walks on the Central Coast.",
+        "duration": "1 hour",
+        "link": "https://www.visitcambria.com",
+        "lat": 35.5753,
+        "lng": -121.1116,
+        "kidFriendly": true,
+        "npsCovered": false
+      }
+    ],
+    "scenicDrives": [
+      {
+        "name": "CA-1 Big Sur — Monterey to Cambria",
+        "description": "The full Big Sur coastal drive. Bixby Bridge, Point Sur Lighthouse, McWay Falls, Ragged Point. One of the most iconic drives in the world.",
+        "duration": "2.5-3 hours with stops",
+        "link": "https://www.google.com/maps/dir/Monterey,+CA/Cambria,+CA"
+      }
+    ],
+    "hiddenGem": {
+      "name": "Nitt Witt Ridge — Cambria's Folk Art Castle",
+      "description": "A folk art house built entirely from found objects (beer cans, abalone shells, car parts) by Art Beal over 50 years. A registered state landmark and the polar opposite of Hearst Castle — a perfect contrast. Tours by appointment; even driving past is fun.",
+      "link": "https://www.visitcambria.com"
+    },
+    "rainyDay": null,
+    "priorities": {
+      "mustDo": [
+        "Big Sur coastal drive — Bixby Bridge and McWay Falls are unmissable",
+        "Pick one morning option: 17-Mile Drive OR Carmel-by-the-Sea",
+        "Depart south by noon for a relaxed Big Sur drive"
+      ],
+      "skipIfShort": [
+        "Hearst Castle — only if arriving San Simeon before 3 PM",
+        "17-Mile Drive — costs $12, skip if you want maximum Big Sur time"
+      ]
+    }
+  },
+  "9": {
+    "activities": [
+      {
+        "name": "Piedras Blancas Elephant Seal Rookery",
+        "type": "outdoor/wildlife",
+        "price": "Free",
+        "description": "One of the most incredible free wildlife experiences in California. Thousands of northern elephant seals on the beach just north of Cambria — a boardwalk overlook lets you watch them from just 20 feet away. They're enormous (males up to 5,000 lbs), loud, and completely wild. No reservation needed. First stop of the morning — just 5 minutes north of Cambria on Highway 1.",
+        "duration": "30-45 min",
+        "link": "https://elephantseal.org",
+        "lat": 35.6649,
+        "lng": -121.2569,
+        "kidFriendly": true,
+        "npsCovered": false
+      },
+      {
+        "name": "Paso Robles Candy Shop & Downtown Square",
+        "type": "indoor/food",
+        "price": "Varies — candy!",
+        "description": "A must-stop in Paso Robles on the way inland and north. Stock up on handmade sweets, taffy, and chocolate. Paso Robles' downtown square has a playground, duck pond, and old-fashioned town square with tasting rooms and restaurants. Great place for kids to run while parents grab a coffee or quick lunch.",
+        "duration": "30-45 min",
+        "link": "https://www.google.com/maps/search/candy+shop+Paso+Robles+CA",
+        "lat": 35.6265,
+        "lng": -120.691,
+        "kidFriendly": true,
+        "npsCovered": false
+      },
+      {
+        "name": "Pinnacles National Park — Balconies Cave Trail (Optional Return)",
+        "type": "outdoor/hiking",
+        "price": "$30/vehicle; FREE with America the Beautiful Pass",
+        "description": "If you want more hiking before tomorrow's SF arrival, Pinnacles is a fantastic afternoon stop on the way north. The Balconies Cave trail (2.4 miles round trip, easy-moderate) takes you through pitch-dark talus caves — bring flashlights! Enter from the WEST side (Chaparral Trailhead off CA-146 from Soledad). America the Beautiful Pass covers entry.",
+        "duration": "2–2.5 hours",
+        "trailLength": "2.4 miles round trip",
+        "difficulty": "Easy-moderate — some uneven footing in caves",
+        "link": "https://www.nps.gov/pinn/planyourvisit/trails.htm",
+        "lat": 36.4906,
+        "lng": -121.1825,
+        "kidFriendly": true,
+        "npsCovered": true,
+        "advanceBookingRequired": false
+      }
+    ],
+    "scenicDrives": [
+      {
+        "name": "US-101 North — Cambria to Salinas",
+        "description": "Head north on US-101 through Paso Robles wine country and the Salinas Valley — John Steinbeck's home turf. Rolling hills, vineyards, and artichoke fields. The optional Pinnacles detour via CA-25 adds 30-45 min but is scenic and well worth it if energy allows.",
+        "duration": "3.5-4 hours with stops",
+        "link": "https://www.google.com/maps/dir/Cambria,+CA/Salinas,+CA"
+      }
+    ],
+    "hiddenGem": {
+      "name": "Steinbeck Country — Salinas Valley",
+      "description": "As you drive through the Salinas Valley on US-101, you're in the heart of John Steinbeck's literary landscape. The valley's wide flat floor surrounded by brown hills is exactly how he described it in East of Eden. The National Steinbeck Center in Salinas is worth a quick stop if you arrive early enough.",
+      "link": "https://www.steinbeck.org"
+    },
+    "rainyDay": null,
+    "priorities": {
+      "mustDo": [
+        "Piedras Blancas Elephant Seal Rookery — free, unforgettable, first stop of the day",
+        "Paso Robles candy shop — quick stop, kids will love it"
+      ],
+      "skipIfShort": [
+        "Pinnacles NP — great second visit but skip if low on energy after the long day",
+        "Steinbeck Center — fascinating but adds time"
+      ]
+    }
+  },
+  "10": {
+    "morning": [
+      {
+        "name": "Chinatown — Dragon Gate, Fortune Cookies & Dim Sum",
+        "type": "outdoor/food/cultural",
+        "price": "Free to explore; dim sum ~$12-20/person",
+        "description": "San Francisco's Chinatown is the oldest in North America and one of the most densely packed neighborhoods in the US. Enter through the Dragon Gate on Grant Ave and walk the bustling street — herbalist shops, produce markets, roasted duck hanging in windows. Stop at the Golden Gate Fortune Cookie Factory (Ross Alley) where you can watch fortune cookies being folded by hand for $1. Grab dim sum at City View Restaurant or Great Eastern for lunch. Kids love the chaotic energy and the fortune cookies.",
+        "duration": "1.5–2 hours",
+        "link": "https://www.sanfranciscochinatown.com",
+        "lat": 37.7941,
+        "lng": -122.4078,
+        "kidFriendly": true,
+        "npsCovered": false
+      },
+      {
+        "name": "North Beach & Washington Square Park",
+        "type": "outdoor/walking",
+        "price": "Free",
+        "description": "SF's Italian neighborhood, right next to Chinatown — a 5-minute walk. Columbus Avenue is lined with old-school Italian delis, cafes (Caffe Trieste has been here since 1956), and bakeries. Washington Square Park has a great lawn where the kids can run while you grab a coffee. City Lights Bookstore (historic Beat Generation landmark) is worth a 15-min browse even with kids.",
+        "duration": "1–1.5 hours",
+        "link": "https://www.google.com/maps/place/Washington+Square+Park,+San+Francisco",
+        "lat": 37.8003,
+        "lng": -122.4107,
+        "kidFriendly": true,
+        "npsCovered": false
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Coit Tower — Art Deco Murals & Panoramic Views",
+        "type": "indoor-outdoor/cultural",
+        "price": "Free to walk up; tower elevator $15 adults, $10 kids 5-17, free under 5",
+        "description": "A 5-minute walk uphill from Washington Square Park, Coit Tower is a 210-foot art deco column on top of Telegraph Hill. The ground floor murals (painted in 1934 by New Deal artists) are stunning and free to view inside. The elevator to the top gives 360° views of the bay, Alcatraz, Golden Gate, and the city. Wild parrots of Telegraph Hill often perch on the building and squawk at visitors — kids are delighted.",
+        "duration": "45 min–1 hour",
+        "link": "https://sfrecpark.org/destination/telegraph-hill-pioneer-park/coit-tower/",
+        "lat": 37.8024,
+        "lng": -122.4058,
+        "kidFriendly": true,
+        "npsCovered": false
+      },
+      {
+        "name": "Alamo Square — Painted Ladies & Postcard Row",
+        "type": "outdoor/free",
+        "price": "Free",
+        "description": "The six Victorian 'Painted Ladies' facing Alamo Square are the most photographed houses in San Francisco — that postcard image everyone knows. The park itself is a wide, grassy hilltop great for kids to run around. On a clear day you can see the downtown skyline behind the colorful Victorians. 15-min drive or Muni from North Beach.",
+        "duration": "30–45 min",
+        "link": "https://www.google.com/maps/place/Alamo+Square+Park,+San+Francisco",
+        "lat": 37.7762,
+        "lng": -122.4345,
+        "kidFriendly": true,
+        "npsCovered": false
+      },
+      {
+        "name": "Mission Dolores — SF's Oldest Building (1776)",
+        "type": "indoor/cultural/historic",
+        "price": "$7 adults, $5 kids 5-17, free under 5",
+        "description": "Mission San Francisco de Asís (Mission Dolores) was founded in 1776 and is the oldest intact building in San Francisco. A quick 30-min visit covers the original adobe chapel (still standing from the 1790s), cemetery with Gold Rush-era graves, and small museum. Right next to Dolores Park — great to combine with a park visit.",
+        "duration": "30–45 min",
+        "link": "https://www.missiondolores.org",
+        "lat": 37.7650,
+        "lng": -122.4267,
+        "kidFriendly": true,
+        "npsCovered": false
+      }
+    ],
+    "evening": [
+      {
+        "name": "Dolores Park — Mission District Sunset",
+        "type": "outdoor/free",
+        "price": "Free",
+        "description": "San Francisco's most beloved park, on a wide sunny hillside in the Mission District. Great views of downtown, the bay, and on clear days the East Bay hills. Families spread out on the grass, kids use the playgrounds, and the vibe is relaxed and festive. A perfect evening wind-down after the long road trip stretch. The Mission District streets around the park have great taquerias and ice cream shops for dinner.",
+        "duration": "1–2 hours",
+        "link": "https://www.google.com/maps/place/Mission+Dolores+Park,+San+Francisco",
+        "lat": 37.7596,
+        "lng": -122.4269,
+        "kidFriendly": true,
+        "npsCovered": false
+      }
+    ],
+    "scenicDrives": [
+      {
+        "name": "CA-1 Coastal Route — Carmel to Half Moon Bay (optional)",
+        "description": "Instead of US-101, take CA-1 north from Salinas/Carmel through Half Moon Bay and Pacifica to SF. Adds ~1 hour but passes stunning coastal bluffs, beaches, and farms. Worth it if you have a relaxed morning start.",
+        "duration": "2.5 hours with stops",
+        "link": "https://www.google.com/maps/dir/Salinas,+CA/San+Francisco,+CA"
+      }
+    ],
+    "hiddenGem": {
+      "name": "Golden Gate Fortune Cookie Factory — Ross Alley, Chinatown",
+      "description": "A tiny alley factory in Chinatown where fortune cookies are still folded by hand on small iron grills — the same way they've been made since 1962. Watch the process up close, buy a bag of warm cookies for $1. The place fits maybe 10 people at a time. One of SF's most charming hidden spots.",
+      "link": "https://www.google.com/maps/place/Golden+Gate+Fortune+Cookie+Factory/@37.7953,-122.4068,17z"
+    },
+    "rainyDay": null,
+    "priorities": {
+      "mustDo": [
+        "Chinatown + Fortune Cookie Factory — immersive, uniquely SF, kids love it",
+        "Coit Tower murals (free inside) and views — pairs perfectly with North Beach walk",
+        "Dolores Park at sunset — the best low-key park in SF, great dinner neighborhood"
+      ],
+      "skipIfShort": [
+        "Alamo Square — great photo but a 15-min drive from North Beach; skip if tired",
+        "Mission Dolores — only if specifically interested in history, otherwise Dolores Park alone is enough"
       ]
     }
   },
